@@ -9,7 +9,6 @@
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
           <include name="beforeMethod"/>
-          <include name="validateCreateNewContect" invocation-numbers="0 1 2 3"/>
           <include name="CheckboxClickTest"/>
           <include name="afterMethod"/>
         </methods>

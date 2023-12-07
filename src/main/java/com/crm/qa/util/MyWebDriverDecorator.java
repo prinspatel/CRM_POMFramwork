@@ -132,12 +132,14 @@ public class MyWebDriverDecorator extends EventFiringWebDriver {
 		}
 
 		@Override
-		public void onException(Throwable throwable, WebDriver driver) {
-			log.info("***** Exception occured + Screenshot After End of the Test. *****");
-			System.out.println("Exception occured: " + throwable);
+		public void onException(Throwable error, WebDriver driver) {
+		
+			log.info("***** Taking Screensort ***** ");
+			System.out.println("Exception occured: " + error);
 			try {
 				TestUtil.takeScreenshotAtEndOfTest();
 			} catch (IOException e) {
+				log.info("***** Taking Screensort ***** ");
 				e.printStackTrace();
 			}
 		}

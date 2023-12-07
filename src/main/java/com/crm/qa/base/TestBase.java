@@ -18,7 +18,7 @@ public class TestBase {
 
 	public static WebDriver driver;
 	public static Properties prop;
-
+	public static Logger log = Logger.getLogger(TestBase.class);
 	public TestBase() {
 		try {
 			prop = new Properties();
@@ -55,9 +55,9 @@ public class TestBase {
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(TestUtil.PAGE_LOAD_TIMEOUT));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
 		
-		Logger log = Logger.getLogger(TestBase.class);
-		driver.get("https://www.freecrm.com/");
-		log.info("************************* Openning URL **************************");
+		
+		//driver.get("https://www.freecrm.com/");
+		log.info("*************** Entering URL  ***************");
 		driver.navigate().to(prop.getProperty("url"));
 
 	}

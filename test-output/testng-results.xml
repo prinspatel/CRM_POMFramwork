@@ -1,149 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-06T21:02:26 EST" name="Default suite" finished-at="2023-12-06T21:04:00 EST" duration-ms="93961">
+  <suite started-at="2023-12-07T17:54:11 EST" name="Default suite" finished-at="2023-12-07T17:54:34 EST" duration-ms="23736">
     <groups>
     </groups>
-    <test started-at="2023-12-06T21:02:26 EST" name="Default test" finished-at="2023-12-06T21:04:00 EST" duration-ms="93961">
-      <class name="com.crm.qa.testcases.ContactsPageTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:02:27 EST" name="beforeMethod" finished-at="2023-12-06T21:02:44 EST" duration-ms="17266" status="PASS">
+    <test started-at="2023-12-07T17:54:11 EST" name="Default test" finished-at="2023-12-07T17:54:34 EST" duration-ms="23736">
+      <class name="com.crm.qa.testcases.TaskPageTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.crm.qa.testcases.TaskPageTest@5386659f]" started-at="2023-12-07T17:54:11 EST" name="beforeMethod" finished-at="2023-12-07T17:54:24 EST" duration-ms="13516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="validateCreateNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:02:44 EST" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2023-12-06T21:02:47 EST" duration-ms="3471" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[prince]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[kumar]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Google]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="delateTaskTest()[pri:4, instance:com.crm.qa.testcases.TaskPageTest@5386659f]" started-at="2023-12-07T17:54:24 EST" name="delateTaskTest" finished-at="2023-12-07T17:54:34 EST" duration-ms="9883" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewContact -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:02:47 EST" name="afterMethod" finished-at="2023-12-06T21:02:51 EST" duration-ms="3326" status="PASS">
+        </test-method> <!-- delateTaskTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.crm.qa.testcases.TaskPageTest@5386659f]" started-at="2023-12-07T17:54:34 EST" name="afterMethod" finished-at="2023-12-07T17:54:34 EST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:02:51 EST" name="beforeMethod" finished-at="2023-12-06T21:03:08 EST" duration-ms="16825" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="validateCreateNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:03:08 EST" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2023-12-06T21:03:11 EST" duration-ms="3522" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[janvi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[prince]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Amazon]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreateNewContact -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:03:11 EST" name="afterMethod" finished-at="2023-12-06T21:03:14 EST" duration-ms="3318" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:03:14 EST" name="beforeMethod" finished-at="2023-12-06T21:03:30 EST" duration-ms="16018" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="validateCreateNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:03:30 EST" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2023-12-06T21:03:34 EST" duration-ms="3603" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[mox]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[darji]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Apple]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreateNewContact -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:03:34 EST" name="afterMethod" finished-at="2023-12-06T21:03:37 EST" duration-ms="3274" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:03:37 EST" name="beforeMethod" finished-at="2023-12-06T21:03:53 EST" duration-ms="15529" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="validateCreateNewContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:03:53 EST" name="validateCreateNewContact" data-provider="getCRMTestData" finished-at="2023-12-06T21:03:56 EST" duration-ms="3465" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mr.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bhikhabhai]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[patel]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Tuxedo]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCreateNewContact -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@6fd83fc1]" started-at="2023-12-06T21:03:56 EST" name="afterMethod" finished-at="2023-12-06T21:04:00 EST" duration-ms="3307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      </class> <!-- com.crm.qa.testcases.TaskPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

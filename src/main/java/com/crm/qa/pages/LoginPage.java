@@ -1,5 +1,6 @@
 package com.crm.qa.pages;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -11,6 +12,8 @@ public class LoginPage extends TestBase {
 	public LoginPage() {
 		super();
 	}
+	
+	Logger log=Logger.getLogger(LoginPage.class);
 
 	@FindBy(name = "username")
 	WebElement usernamee;
@@ -42,7 +45,7 @@ public class LoginPage extends TestBase {
 	}
 
 	public HomePage login(String un, String pwd) throws InterruptedException {
-
+		log.info("** Entering Username and password ** ");
 		usernamee.sendKeys(un);
 		password.sendKeys(pwd);
 		loginBtn.click();
