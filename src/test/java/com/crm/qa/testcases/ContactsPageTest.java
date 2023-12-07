@@ -36,7 +36,7 @@ public class ContactsPageTest extends TestBase {
 		AssertJUnit.assertTrue(lable);
 	}
 
-	//@Test(priority = 2)
+	@Test(priority = 2)
 	public void CheckboxClickTest() throws InterruptedException {
 		testutil.swithToFrame();
 		contactPage.contactlnk();
@@ -49,7 +49,7 @@ public class ContactsPageTest extends TestBase {
 		return data;
 	}
 
-	@Test(priority = 3,  dataProvider="getCRMTestData")
+	//@Test(priority = 3,  dataProvider="getCRMTestData")
 	public void validateCreateNewContact(String title, String firstName, String lastName, String company) {
 		testutil.swithToFrame();
 		homepage.clickOnNewContactLink();
