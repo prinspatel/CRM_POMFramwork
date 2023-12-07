@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
@@ -14,6 +13,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import com.crm.qa.base.TestBase;
+import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 
 public class TestUtil extends TestBase {
 	
@@ -38,6 +38,8 @@ public class TestUtil extends TestBase {
 		}
 		try {
 			book = WorkbookFactory.create(file);
+		} catch (InvalidFormatException e) {
+			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -53,7 +55,6 @@ public class TestUtil extends TestBase {
 		}
 		return data;
 	}
-	
 	public static void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");

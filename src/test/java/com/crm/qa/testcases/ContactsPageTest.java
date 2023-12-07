@@ -18,25 +18,27 @@ public class ContactsPageTest extends TestBase {
 	HomePage homepage = new HomePage();
 	TestUtil testutil = new TestUtil();
 	ContactsPage contactPage = new ContactsPage();
-	String sheetName="contacts";
+	String sheetName = "contacts";
 
 	@BeforeMethod
 	public void beforeMethod() throws InterruptedException {
 		loginpage.openbrowser();
 		homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
-		testutil.swithToFrame();
 		
+
 	}
 
-	@Test(priority = 1)
+	//@Test(priority = 1)
 	public void contactLabelIsDisplayTest() {
+		testutil.swithToFrame();
 		contactPage.contactlnk();
 		boolean lable = contactPage.contactLabelDisplayed();
 		AssertJUnit.assertTrue(lable);
 	}
 
-	@Test(priority = 2)
+	//@Test(priority = 2)
 	public void CheckboxClickTest() throws InterruptedException {
+		testutil.swithToFrame();
 		contactPage.contactlnk();
 		contactPage.selectCheckbox();
 	}
@@ -46,14 +48,12 @@ public class ContactsPageTest extends TestBase {
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
 	}
-	
-	
-	@Test(priority=4)
-	public void validateCreateNewContact(){
+
+	@Test(priority = 3,  dataProvider="getCRMTestData")
+	public void validateCreateNewContact(String title, String firstName, String lastName, String company) {
+		testutil.swithToFrame();
 		homepage.clickOnNewContactLink();
-		contactPage.createNewContact("Mr.", "Tom", "Peter", "Google");
-		//contactPage.createNewContact(title, firstName, lastName, company);
-		
+		contactPage.createNewContact(title, firstName, lastName, company);
 	}
 
 	@AfterMethod

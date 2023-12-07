@@ -23,11 +23,6 @@ public class ContactsPage extends TestBase {
 	@FindAll({ @FindBy(xpath = "//td[contains(text(),'Contacts')]/../../../../../..//input[@type='checkbox'][1]") })
 	public List<WebElement> chechbox;
 	
-	@FindBy(id="first_name")
-	WebElement firstName;
-	
-	@FindBy(id="surname")
-	WebElement lastName;
 	
 	@FindBy(name="client_lookup")
 	WebElement company;
@@ -62,14 +57,14 @@ public class ContactsPage extends TestBase {
 			}
 		}
 	}
-	public void createNewContact(String title, String ftName, String ltName, String comp){
+	public void createNewContact(String titl, String fname, String surname, String company){
 		Select select = new Select(driver.findElement(By.name("title")));
-		select.selectByVisibleText(title);
+		select.selectByVisibleText(titl);
 		
-		firstName.sendKeys(ftName);
-		lastName.sendKeys(ltName);
-		company.sendKeys(comp);
-		saveBtn.click();
+		driver.findElement(By.xpath("//input[@id='first_name']")).sendKeys(fname);		
+		driver.findElement(By.id("surname")).sendKeys(surname);
+		driver.findElement(By.xpath("//input[@name='client_lookup']")).sendKeys(company);
+		driver.findElement(By.xpath("//input[@value='Save']")).click();
 		
 	}
 
