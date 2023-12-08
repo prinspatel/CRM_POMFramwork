@@ -1,423 +1,941 @@
-2023-12-07 18:19:07,048  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test | Befor Test Method  ***************
-2023-12-07 18:19:11,002  INFO [main] TestBase:60 - *************** Entering URL  ***************
-2023-12-07 18:19:11,006  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
-2023-12-07 18:19:14,046  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
-2023-12-07 18:19:14,054  INFO [main] LoginPage:48 - ** Entering Username and password ** 
-2023-12-07 18:19:14,063  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
-2023-12-07 18:19:14,113  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
-2023-12-07 18:19:14,125  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (09003454f32b17e29d88e3bbef301d96)] -> name: username] before any changes made
-2023-12-07 18:19:14,237  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (09003454f32b17e29d88e3bbef301d96)] -> name: username]
-2023-12-07 18:19:14,238  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
-2023-12-07 18:19:14,257  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
-2023-12-07 18:19:14,258  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (09003454f32b17e29d88e3bbef301d96)] -> name: password] before any changes made
-2023-12-07 18:19:14,329  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (09003454f32b17e29d88e3bbef301d96)] -> name: password]
-2023-12-07 18:19:14,330  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:19:14,352  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:19:14,354  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (09003454f32b17e29d88e3bbef301d96)] -> xpath: //input[@type='submit']]
-2023-12-07 18:19:15,550  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (09003454f32b17e29d88e3bbef301d96)] -> xpath: //input[@type='submit']]
-2023-12-07 18:19:15,552  INFO [main] ContactsPageTest:30 - *************** Befor Test Method | Done  ***************
-2023-12-07 18:19:15,571  INFO [main] ContactsPageTest:46 - *************** Test - 2 | Checkbox in conct click Test ***************
-2023-12-07 18:19:19,430  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Contacts']
-2023-12-07 18:19:19,452  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Contacts']
-2023-12-07 18:19:19,453  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (09003454f32b17e29d88e3bbef301d96)] -> xpath: //a[normalize-space()='Contacts']]
-2023-12-07 18:19:20,625  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (09003454f32b17e29d88e3bbef301d96)] -> xpath: //a[normalize-space()='Contacts']]
-2023-12-07 18:19:20,626  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //td[contains(text(),'Contacts')]/../../../../../..//input[@type='checkbox'][1]})
-2023-12-07 18:19:20,650  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //td[contains(text(),'Contacts')]/../../../../../..//input[@type='checkbox'][1]})
-2023-12-07 18:19:20,651  INFO [main] ContactsPageTest:50 - *************** Test - 2 | Done  ***************
-2023-12-07 18:19:20,656  INFO [main] ContactsPageTest:79 - *************** Closing Browser ***************
-2023-12-07 18:19:24,057  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test | Befor Test Method  ***************
-2023-12-07 18:19:26,704  INFO [main] TestBase:60 - *************** Entering URL  ***************
-2023-12-07 18:19:26,705  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
-2023-12-07 18:19:29,588  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
-2023-12-07 18:19:29,591  INFO [main] LoginPage:48 - ** Entering Username and password ** 
-2023-12-07 18:19:29,594  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
-2023-12-07 18:19:29,654  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
-2023-12-07 18:19:29,654  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (e8e3f198f8d899654d111b5bb670d031)] -> name: username] before any changes made
-2023-12-07 18:19:29,764  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (e8e3f198f8d899654d111b5bb670d031)] -> name: username]
-2023-12-07 18:19:29,765  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
-2023-12-07 18:19:29,784  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
-2023-12-07 18:19:29,785  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (e8e3f198f8d899654d111b5bb670d031)] -> name: password] before any changes made
-2023-12-07 18:19:29,871  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (e8e3f198f8d899654d111b5bb670d031)] -> name: password]
-2023-12-07 18:19:29,872  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:19:29,895  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:19:29,896  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (e8e3f198f8d899654d111b5bb670d031)] -> xpath: //input[@type='submit']]
-2023-12-07 18:19:35,022  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (e8e3f198f8d899654d111b5bb670d031)] -> xpath: //input[@type='submit']]
-2023-12-07 18:19:35,025  INFO [main] ContactsPageTest:30 - *************** Befor Test Method | Done  ***************
-2023-12-07 18:19:35,027  INFO [main] ContactsPageTest:70 - *************** Test - 4 | Delating All Contects  ***************
-2023-12-07 18:19:35,070  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Contacts']
-2023-12-07 18:19:35,093  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Contacts']
-2023-12-07 18:19:35,094  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (e8e3f198f8d899654d111b5bb670d031)] -> xpath: //a[normalize-space()='Contacts']]
-2023-12-07 18:19:36,067  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (e8e3f198f8d899654d111b5bb670d031)] -> xpath: //a[normalize-space()='Contacts']]
-2023-12-07 18:19:36,068  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //td[@class='datalistrow']//a//i[@title='Delete']
-2023-12-07 18:19:56,081  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //td[@class='datalistrow']//a//i[@title='Delete']
-2023-12-07 18:19:56,089  INFO [main] ContactsPageTest:74 - *************** Test - 4 | Done  ***************
-2023-12-07 18:19:56,092  INFO [main] ContactsPageTest:79 - *************** Closing Browser ***************
-2023-12-07 18:19:59,403  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test. | Befor Test Method.  ***************
-2023-12-07 18:20:02,225  INFO [main] TestBase:60 - *************** Entering URL  ***************
-2023-12-07 18:20:02,226  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
-2023-12-07 18:20:05,426  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
-2023-12-07 18:20:05,427  INFO [main] LoginPage:48 - ** Entering Username and password ** 
-2023-12-07 18:20:05,428  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
-2023-12-07 18:20:05,494  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
-2023-12-07 18:20:05,495  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (e9c53095d02530464e55ca1ff790d8a5)] -> name: username] before any changes made
-2023-12-07 18:20:05,603  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (e9c53095d02530464e55ca1ff790d8a5)] -> name: username]
-2023-12-07 18:20:05,604  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
-2023-12-07 18:20:05,622  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
-2023-12-07 18:20:05,623  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (e9c53095d02530464e55ca1ff790d8a5)] -> name: password] before any changes made
-2023-12-07 18:20:05,694  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (e9c53095d02530464e55ca1ff790d8a5)] -> name: password]
-2023-12-07 18:20:05,695  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:20:05,717  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:20:05,718  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (e9c53095d02530464e55ca1ff790d8a5)] -> xpath: //input[@type='submit']]
-2023-12-07 18:20:10,805  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (e9c53095d02530464e55ca1ff790d8a5)] -> xpath: //input[@type='submit']]
-2023-12-07 18:20:10,859  INFO [main] ContactsPageTest:31 - *************** Before Method Done ***************
-2023-12-07 18:20:10,861  INFO [main] ContactsPageTest:36 - *************** Test - 1 | Deal Page Valadition.  ***************
-2023-12-07 18:20:10,864  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Deals']
-2023-12-07 18:20:10,890  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Deals']
-2023-12-07 18:20:10,890  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (e9c53095d02530464e55ca1ff790d8a5)] -> xpath: //a[normalize-space()='Deals']]
-2023-12-07 18:20:11,980  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (e9c53095d02530464e55ca1ff790d8a5)] -> xpath: //a[normalize-space()='Deals']]
-2023-12-07 18:20:11,980  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@value='New Deal']
-2023-12-07 18:20:11,998  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@value='New Deal']
-2023-12-07 18:20:12,037  INFO [main] ContactsPageTest:41 - *************** Test - 1 | Done ***************
-2023-12-07 18:20:12,039  INFO [main] ContactsPageTest:67 - *************** Closing Browser.  ***************
-2023-12-07 18:20:12,216  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test. | Befor Test Method.  ***************
-2023-12-07 18:20:14,841  INFO [main] TestBase:60 - *************** Entering URL  ***************
-2023-12-07 18:20:14,842  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
-2023-12-07 18:20:17,761  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
-2023-12-07 18:20:17,763  INFO [main] LoginPage:48 - ** Entering Username and password ** 
-2023-12-07 18:20:17,763  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
-2023-12-07 18:20:17,819  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
-2023-12-07 18:20:17,820  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (b80a725b0a0fce9126fa3945a9c8e856)] -> name: username] before any changes made
-2023-12-07 18:20:17,925  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (b80a725b0a0fce9126fa3945a9c8e856)] -> name: username]
-2023-12-07 18:20:17,925  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
-2023-12-07 18:20:17,950  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
-2023-12-07 18:20:17,950  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (b80a725b0a0fce9126fa3945a9c8e856)] -> name: password] before any changes made
-2023-12-07 18:20:18,023  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (b80a725b0a0fce9126fa3945a9c8e856)] -> name: password]
-2023-12-07 18:20:18,023  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:20:18,045  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:20:18,046  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (b80a725b0a0fce9126fa3945a9c8e856)] -> xpath: //input[@type='submit']]
-2023-12-07 18:20:23,099  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (b80a725b0a0fce9126fa3945a9c8e856)] -> xpath: //input[@type='submit']]
-2023-12-07 18:20:23,140  INFO [main] ContactsPageTest:31 - *************** Before Method Done ***************
-2023-12-07 18:20:23,142  INFO [main] ContactsPageTest:59 - *************** Test - 3 | Delete Deals Test.  ***************
-2023-12-07 18:20:23,143  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Deals']
-2023-12-07 18:20:23,165  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Deals']
-2023-12-07 18:20:23,166  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (b80a725b0a0fce9126fa3945a9c8e856)] -> xpath: //a[normalize-space()='Deals']]
-2023-12-07 18:20:24,076  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (b80a725b0a0fce9126fa3945a9c8e856)] -> xpath: //a[normalize-space()='Deals']]
-2023-12-07 18:20:24,077  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //td[@class='datalistrow']//a//i[@title='Delete']
-2023-12-07 18:20:44,114  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //td[@class='datalistrow']//a//i[@title='Delete']
-2023-12-07 18:20:44,115  INFO [main] ContactsPageTest:62 - *************** Test -3 | Done ***************
-2023-12-07 18:20:44,117  INFO [main] ContactsPageTest:67 - *************** Closing Browser.  ***************
-2023-12-07 18:20:44,346  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
-2023-12-07 18:20:46,927  INFO [main] TestBase:60 - *************** Entering URL  ***************
-2023-12-07 18:20:46,928  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
-2023-12-07 18:20:49,804  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
-2023-12-07 18:20:49,805  INFO [main] LoginPage:48 - ** Entering Username and password ** 
-2023-12-07 18:20:49,806  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
-2023-12-07 18:20:49,860  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
-2023-12-07 18:20:49,861  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (5f5815ecdfb67413aba3d24e9c793d21)] -> name: username] before any changes made
-2023-12-07 18:20:49,970  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (5f5815ecdfb67413aba3d24e9c793d21)] -> name: username]
-2023-12-07 18:20:49,971  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
-2023-12-07 18:20:49,990  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
-2023-12-07 18:20:49,991  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (5f5815ecdfb67413aba3d24e9c793d21)] -> name: password] before any changes made
-2023-12-07 18:20:50,062  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (5f5815ecdfb67413aba3d24e9c793d21)] -> name: password]
-2023-12-07 18:20:50,062  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:20:50,094  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:20:50,094  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (5f5815ecdfb67413aba3d24e9c793d21)] -> xpath: //input[@type='submit']]
-2023-12-07 18:20:55,101  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (5f5815ecdfb67413aba3d24e9c793d21)] -> xpath: //input[@type='submit']]
-2023-12-07 18:20:55,150  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
-2023-12-07 18:20:55,152  INFO [main] TestBase:35 - *************** Test - 1 | Validating Task Page. ***************
-2023-12-07 18:20:55,152  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:20:55,169  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:20:55,170  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (5f5815ecdfb67413aba3d24e9c793d21)] -> xpath: //a[normalize-space()='Tasks']]
-2023-12-07 18:20:56,119  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (5f5815ecdfb67413aba3d24e9c793d21)] -> xpath: //a[normalize-space()='Tasks']]
-2023-12-07 18:20:58,133  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//td//em)[2]
-2023-12-07 18:20:58,160  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//td//em)[2]
-2023-12-07 18:20:58,161  INFO [main] MyWebDriverDecorator:173 - Before GetText from WebElement : [[ChromeDriver: chrome on windows (5f5815ecdfb67413aba3d24e9c793d21)] -> xpath: (//td//em)[2]]
-2023-12-07 18:20:58,192  INFO [main] MyWebDriverDecorator:180 - Getting Text from WebElement : [[ChromeDriver: chrome on windows (5f5815ecdfb67413aba3d24e9c793d21)] -> xpath: (//td//em)[2]] ( Text : Showing all tasks )
-2023-12-07 18:20:58,192  INFO [main] TestBase:59 - ***** Assertion Declaration ***** 
-2023-12-07 18:20:58,193  INFO [main] TestBase:37 - *************** Test - 1 is Done. ***************
-2023-12-07 18:20:58,194  INFO [main] TestBase:70 - *************** Closing Browser. ***************
-2023-12-07 18:20:59,470  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
-2023-12-07 18:21:02,051  INFO [main] TestBase:60 - *************** Entering URL  ***************
-2023-12-07 18:21:02,051  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
-2023-12-07 18:21:05,070  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
-2023-12-07 18:21:05,071  INFO [main] LoginPage:48 - ** Entering Username and password ** 
-2023-12-07 18:21:05,072  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
-2023-12-07 18:21:05,130  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
-2023-12-07 18:21:05,131  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> name: username] before any changes made
-2023-12-07 18:21:05,232  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> name: username]
-2023-12-07 18:21:05,232  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
-2023-12-07 18:21:05,251  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
-2023-12-07 18:21:05,252  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> name: password] before any changes made
-2023-12-07 18:21:05,330  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> name: password]
-2023-12-07 18:21:05,331  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:21:05,350  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:21:05,351  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: //input[@type='submit']]
-2023-12-07 18:21:10,407  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: //input[@type='submit']]
-2023-12-07 18:21:10,463  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
-2023-12-07 18:21:10,466  INFO [main] TestBase:48 - *************** Test - 2 | Adding New Task. ***************
-2023-12-07 18:21:10,476  INFO [Forwarding actions on session 370e9329728bc074cfb1890b2df82905 to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:21:10,494  INFO [Forwarding actions on session 370e9329728bc074cfb1890b2df82905 to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:21:10,667  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Task']
-2023-12-07 18:21:10,686  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Task']
-2023-12-07 18:21:10,686  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: //a[normalize-space()='New Task']]
-2023-12-07 18:21:11,781  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: //a[normalize-space()='New Task']]
-2023-12-07 18:21:13,796  INFO [main] TestBase:69 - ** Entaring data in to Page **
-2023-12-07 18:21:13,797  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
-2023-12-07 18:21:13,822  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
-2023-12-07 18:21:13,823  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> id: title] before any changes made
-2023-12-07 18:21:13,881  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> id: title]
-2023-12-07 18:21:13,882  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='prospect_lookup']
-2023-12-07 18:21:13,899  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='prospect_lookup']
-2023-12-07 18:21:13,899  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: //input[@name='prospect_lookup']] before any changes made
-2023-12-07 18:21:13,996  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: //input[@name='prospect_lookup']]
-2023-12-07 18:21:14,015  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='case_lookup']
-2023-12-07 18:21:14,039  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='case_lookup']
-2023-12-07 18:21:14,039  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: //input[@name='case_lookup']] before any changes made
-2023-12-07 18:21:14,113  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: //input[@name='case_lookup']]
-2023-12-07 18:21:14,114  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
-2023-12-07 18:21:14,130  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
-2023-12-07 18:21:14,130  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: //input[@name='client_lookup']] before any changes made
-2023-12-07 18:21:14,203  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: //input[@name='client_lookup']]
-2023-12-07 18:21:14,203  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//input[@value='Save'])[1]
-2023-12-07 18:21:14,221  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//input[@value='Save'])[1]
-2023-12-07 18:21:14,222  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: (//input[@value='Save'])[1]]
-2023-12-07 18:21:15,920  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (370e9329728bc074cfb1890b2df82905)] -> xpath: (//input[@value='Save'])[1]]
-2023-12-07 18:21:15,920  INFO [main] TestBase:50 - *************** Test - 2 is Done. ***************
-2023-12-07 18:21:15,923  INFO [main] TestBase:70 - *************** Closing Browser. ***************
-2023-12-07 18:21:16,156  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
-2023-12-07 18:21:18,757  INFO [main] TestBase:60 - *************** Entering URL  ***************
-2023-12-07 18:21:18,758  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
-2023-12-07 18:21:21,875  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
-2023-12-07 18:21:21,878  INFO [main] LoginPage:48 - ** Entering Username and password ** 
-2023-12-07 18:21:21,879  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
-2023-12-07 18:21:21,934  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
-2023-12-07 18:21:21,934  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> name: username] before any changes made
-2023-12-07 18:21:22,037  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> name: username]
-2023-12-07 18:21:22,039  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
-2023-12-07 18:21:22,060  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
-2023-12-07 18:21:22,060  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> name: password] before any changes made
-2023-12-07 18:21:22,132  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> name: password]
-2023-12-07 18:21:22,132  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:21:22,159  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:21:22,160  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: //input[@type='submit']]
-2023-12-07 18:21:23,377  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: //input[@type='submit']]
-2023-12-07 18:21:27,073  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
-2023-12-07 18:21:27,074  INFO [main] TestBase:48 - *************** Test - 2 | Adding New Task. ***************
-2023-12-07 18:21:27,076  INFO [Forwarding actions on session 10983a62069ae1de76425588d263588e to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:21:27,093  INFO [Forwarding actions on session 10983a62069ae1de76425588d263588e to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:21:27,268  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Task']
-2023-12-07 18:21:27,295  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Task']
-2023-12-07 18:21:27,295  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: //a[normalize-space()='New Task']]
-2023-12-07 18:21:28,420  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: //a[normalize-space()='New Task']]
-2023-12-07 18:21:30,436  INFO [main] TestBase:69 - ** Entaring data in to Page **
-2023-12-07 18:21:30,436  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
-2023-12-07 18:21:30,462  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
-2023-12-07 18:21:30,462  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> id: title] before any changes made
-2023-12-07 18:21:30,511  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> id: title]
-2023-12-07 18:21:30,511  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='prospect_lookup']
-2023-12-07 18:21:30,528  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='prospect_lookup']
-2023-12-07 18:21:30,528  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: //input[@name='prospect_lookup']] before any changes made
-2023-12-07 18:21:30,621  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: //input[@name='prospect_lookup']]
-2023-12-07 18:21:30,621  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='case_lookup']
-2023-12-07 18:21:30,635  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='case_lookup']
-2023-12-07 18:21:30,636  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: //input[@name='case_lookup']] before any changes made
-2023-12-07 18:21:30,709  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: //input[@name='case_lookup']]
-2023-12-07 18:21:30,709  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
-2023-12-07 18:21:30,724  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
-2023-12-07 18:21:30,725  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: //input[@name='client_lookup']] before any changes made
-2023-12-07 18:21:30,811  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: //input[@name='client_lookup']]
-2023-12-07 18:21:30,812  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//input[@value='Save'])[1]
-2023-12-07 18:21:30,828  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//input[@value='Save'])[1]
-2023-12-07 18:21:30,828  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: (//input[@value='Save'])[1]]
-2023-12-07 18:21:32,316  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (10983a62069ae1de76425588d263588e)] -> xpath: (//input[@value='Save'])[1]]
-2023-12-07 18:21:32,316  INFO [main] TestBase:50 - *************** Test - 2 is Done. ***************
-2023-12-07 18:21:32,320  INFO [main] TestBase:70 - *************** Closing Browser. ***************
-2023-12-07 18:21:32,663  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
-2023-12-07 18:21:35,410  INFO [main] TestBase:60 - *************** Entering URL  ***************
-2023-12-07 18:21:35,410  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
-2023-12-07 18:21:38,346  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
-2023-12-07 18:21:38,347  INFO [main] LoginPage:48 - ** Entering Username and password ** 
-2023-12-07 18:21:38,347  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
-2023-12-07 18:21:38,398  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
-2023-12-07 18:21:38,400  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> name: username] before any changes made
-2023-12-07 18:21:38,503  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> name: username]
-2023-12-07 18:21:38,503  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
-2023-12-07 18:21:38,522  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
-2023-12-07 18:21:38,522  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> name: password] before any changes made
-2023-12-07 18:21:38,597  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> name: password]
-2023-12-07 18:21:38,597  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:21:38,615  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:21:38,618  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: //input[@type='submit']]
-2023-12-07 18:21:43,604  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: //input[@type='submit']]
-2023-12-07 18:21:43,646  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
-2023-12-07 18:21:43,646  INFO [main] TestBase:48 - *************** Test - 2 | Adding New Task. ***************
-2023-12-07 18:21:43,648  INFO [Forwarding actions on session d745f2d808562871fc784d76bc17cdd5 to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:21:43,665  INFO [Forwarding actions on session d745f2d808562871fc784d76bc17cdd5 to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:21:43,838  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Task']
-2023-12-07 18:21:43,866  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Task']
-2023-12-07 18:21:43,867  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: //a[normalize-space()='New Task']]
-2023-12-07 18:21:45,173  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: //a[normalize-space()='New Task']]
-2023-12-07 18:21:47,177  INFO [main] TestBase:69 - ** Entaring data in to Page **
-2023-12-07 18:21:47,177  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
-2023-12-07 18:21:47,205  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
-2023-12-07 18:21:47,205  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> id: title] before any changes made
-2023-12-07 18:21:47,257  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> id: title]
-2023-12-07 18:21:47,258  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='prospect_lookup']
-2023-12-07 18:21:47,276  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='prospect_lookup']
-2023-12-07 18:21:47,277  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: //input[@name='prospect_lookup']] before any changes made
-2023-12-07 18:21:47,361  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: //input[@name='prospect_lookup']]
-2023-12-07 18:21:47,361  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='case_lookup']
-2023-12-07 18:21:47,377  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='case_lookup']
-2023-12-07 18:21:47,378  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: //input[@name='case_lookup']] before any changes made
-2023-12-07 18:21:47,450  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: //input[@name='case_lookup']]
-2023-12-07 18:21:47,450  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
-2023-12-07 18:21:47,466  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
-2023-12-07 18:21:47,466  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: //input[@name='client_lookup']] before any changes made
-2023-12-07 18:21:47,536  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: //input[@name='client_lookup']]
-2023-12-07 18:21:47,536  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//input[@value='Save'])[1]
-2023-12-07 18:21:47,552  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//input[@value='Save'])[1]
-2023-12-07 18:21:47,552  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: (//input[@value='Save'])[1]]
-2023-12-07 18:21:49,169  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (d745f2d808562871fc784d76bc17cdd5)] -> xpath: (//input[@value='Save'])[1]]
-2023-12-07 18:21:49,170  INFO [main] TestBase:50 - *************** Test - 2 is Done. ***************
-2023-12-07 18:21:49,171  INFO [main] TestBase:70 - *************** Closing Browser. ***************
-2023-12-07 18:21:49,400  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
-2023-12-07 18:21:52,268  INFO [main] TestBase:60 - *************** Entering URL  ***************
-2023-12-07 18:21:52,268  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
-2023-12-07 18:21:55,333  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
-2023-12-07 18:21:55,334  INFO [main] LoginPage:48 - ** Entering Username and password ** 
-2023-12-07 18:21:55,335  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
-2023-12-07 18:21:55,373  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
-2023-12-07 18:21:55,373  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> name: username] before any changes made
-2023-12-07 18:21:55,484  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> name: username]
-2023-12-07 18:21:55,484  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
-2023-12-07 18:21:55,502  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
-2023-12-07 18:21:55,503  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> name: password] before any changes made
-2023-12-07 18:21:55,574  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> name: password]
-2023-12-07 18:21:55,575  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:21:55,599  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:21:55,599  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: //input[@type='submit']]
-2023-12-07 18:22:00,766  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: //input[@type='submit']]
-2023-12-07 18:22:00,809  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
-2023-12-07 18:22:00,810  INFO [main] TestBase:48 - *************** Test - 2 | Adding New Task. ***************
-2023-12-07 18:22:00,811  INFO [Forwarding actions on session 1f761f1d9ceae8c315c7040dca25e7a0 to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:22:00,830  INFO [Forwarding actions on session 1f761f1d9ceae8c315c7040dca25e7a0 to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:22:00,994  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Task']
-2023-12-07 18:22:01,011  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Task']
-2023-12-07 18:22:01,011  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: //a[normalize-space()='New Task']]
-2023-12-07 18:22:02,196  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: //a[normalize-space()='New Task']]
-2023-12-07 18:22:04,208  INFO [main] TestBase:69 - ** Entaring data in to Page **
-2023-12-07 18:22:04,208  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
-2023-12-07 18:22:04,234  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
-2023-12-07 18:22:04,235  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> id: title] before any changes made
-2023-12-07 18:22:04,286  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> id: title]
-2023-12-07 18:22:04,286  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='prospect_lookup']
-2023-12-07 18:22:04,302  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='prospect_lookup']
-2023-12-07 18:22:04,303  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: //input[@name='prospect_lookup']] before any changes made
-2023-12-07 18:22:04,403  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: //input[@name='prospect_lookup']]
-2023-12-07 18:22:04,403  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='case_lookup']
-2023-12-07 18:22:04,419  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='case_lookup']
-2023-12-07 18:22:04,420  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: //input[@name='case_lookup']] before any changes made
-2023-12-07 18:22:04,491  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: //input[@name='case_lookup']]
-2023-12-07 18:22:04,492  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
-2023-12-07 18:22:04,509  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
-2023-12-07 18:22:04,509  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: //input[@name='client_lookup']] before any changes made
-2023-12-07 18:22:04,585  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: //input[@name='client_lookup']]
-2023-12-07 18:22:04,585  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//input[@value='Save'])[1]
-2023-12-07 18:22:04,600  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//input[@value='Save'])[1]
-2023-12-07 18:22:04,600  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: (//input[@value='Save'])[1]]
-2023-12-07 18:22:06,229  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (1f761f1d9ceae8c315c7040dca25e7a0)] -> xpath: (//input[@value='Save'])[1]]
-2023-12-07 18:22:06,229  INFO [main] TestBase:50 - *************** Test - 2 is Done. ***************
-2023-12-07 18:22:06,231  INFO [main] TestBase:70 - *************** Closing Browser. ***************
-2023-12-07 18:22:06,462  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
-2023-12-07 18:22:08,965  INFO [main] TestBase:60 - *************** Entering URL  ***************
-2023-12-07 18:22:08,966  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
-2023-12-07 18:22:12,118  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
-2023-12-07 18:22:12,120  INFO [main] LoginPage:48 - ** Entering Username and password ** 
-2023-12-07 18:22:12,123  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
-2023-12-07 18:22:12,186  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
-2023-12-07 18:22:12,187  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (6500fc116c8c3400d42ffb39c80a0167)] -> name: username] before any changes made
-2023-12-07 18:22:12,286  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (6500fc116c8c3400d42ffb39c80a0167)] -> name: username]
-2023-12-07 18:22:12,290  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
-2023-12-07 18:22:12,310  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
-2023-12-07 18:22:12,311  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (6500fc116c8c3400d42ffb39c80a0167)] -> name: password] before any changes made
-2023-12-07 18:22:12,383  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (6500fc116c8c3400d42ffb39c80a0167)] -> name: password]
-2023-12-07 18:22:12,383  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:22:12,403  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:22:12,406  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (6500fc116c8c3400d42ffb39c80a0167)] -> xpath: //input[@type='submit']]
-2023-12-07 18:22:17,474  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (6500fc116c8c3400d42ffb39c80a0167)] -> xpath: //input[@type='submit']]
-2023-12-07 18:22:17,515  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
-2023-12-07 18:22:17,516  INFO [main] TestBase:55 - *************** Test - 3 | Verify Added New Task. ***************
-2023-12-07 18:22:17,516  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:22:17,535  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:22:17,537  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (6500fc116c8c3400d42ffb39c80a0167)] -> xpath: //a[normalize-space()='Tasks']]
-2023-12-07 18:22:18,465  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (6500fc116c8c3400d42ffb39c80a0167)] -> xpath: //a[normalize-space()='Tasks']]
-2023-12-07 18:22:18,466  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:18,483  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:18,483  INFO [main] TestBase:82 - ***** Assertion Declaration ***** 
-2023-12-07 18:22:18,484  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:18,496  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:18,497  INFO [main] TestBase:57 - *************** Test - 3 is Done. ***************
-2023-12-07 18:22:18,498  INFO [main] TestBase:70 - *************** Closing Browser. ***************
-2023-12-07 18:22:18,734  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
-2023-12-07 18:22:21,490  INFO [main] TestBase:60 - *************** Entering URL  ***************
-2023-12-07 18:22:21,490  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
-2023-12-07 18:22:24,721  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
-2023-12-07 18:22:24,721  INFO [main] LoginPage:48 - ** Entering Username and password ** 
-2023-12-07 18:22:24,722  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
-2023-12-07 18:22:24,790  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
-2023-12-07 18:22:24,791  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> name: username] before any changes made
-2023-12-07 18:22:24,890  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> name: username]
-2023-12-07 18:22:24,890  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
-2023-12-07 18:22:24,908  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
-2023-12-07 18:22:24,908  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> name: password] before any changes made
-2023-12-07 18:22:24,980  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> name: password]
-2023-12-07 18:22:24,980  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:22:24,998  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
-2023-12-07 18:22:24,998  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: //input[@type='submit']]
-2023-12-07 18:22:26,228  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: //input[@type='submit']]
-2023-12-07 18:22:30,236  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
-2023-12-07 18:22:30,237  INFO [main] TestBase:62 - *************** Test - 4 | Delating New Task. ***************
-2023-12-07 18:22:30,237  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:22:30,255  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
-2023-12-07 18:22:30,256  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: //a[normalize-space()='Tasks']]
-2023-12-07 18:22:31,423  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: //a[normalize-space()='Tasks']]
-2023-12-07 18:22:33,433  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:33,460  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:33,461  INFO [main] TestBase:92 - ********** Delating Task No : 1 **********
-2023-12-07 18:22:33,461  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//a//i[@title='Delete'])[1]
-2023-12-07 18:22:33,486  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//a//i[@title='Delete'])[1]
-2023-12-07 18:22:33,486  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: (//a//i[@title='Delete'])[1]]
-2023-12-07 18:22:33,594  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: (//a//i[@title='Delete'])[1]]
-2023-12-07 18:22:33,608  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
-2023-12-07 18:22:33,620  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
-2023-12-07 18:22:35,629  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:35,648  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:35,648  INFO [main] TestBase:92 - ********** Delating Task No : 2 **********
-2023-12-07 18:22:35,648  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//a//i[@title='Delete'])[1]
-2023-12-07 18:22:35,669  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//a//i[@title='Delete'])[1]
-2023-12-07 18:22:35,670  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: (//a//i[@title='Delete'])[1]]
-2023-12-07 18:22:35,773  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: (//a//i[@title='Delete'])[1]]
-2023-12-07 18:22:35,778  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
-2023-12-07 18:22:35,785  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
-2023-12-07 18:22:37,787  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:37,809  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:37,809  INFO [main] TestBase:92 - ********** Delating Task No : 3 **********
-2023-12-07 18:22:37,810  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//a//i[@title='Delete'])[1]
-2023-12-07 18:22:37,822  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//a//i[@title='Delete'])[1]
-2023-12-07 18:22:37,823  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: (//a//i[@title='Delete'])[1]]
-2023-12-07 18:22:37,906  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: (//a//i[@title='Delete'])[1]]
-2023-12-07 18:22:37,916  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
-2023-12-07 18:22:37,923  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
-2023-12-07 18:22:39,926  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:39,949  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:39,949  INFO [main] TestBase:92 - ********** Delating Task No : 4 **********
-2023-12-07 18:22:39,950  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//a//i[@title='Delete'])[1]
-2023-12-07 18:22:39,971  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//a//i[@title='Delete'])[1]
-2023-12-07 18:22:39,972  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: (//a//i[@title='Delete'])[1]]
-2023-12-07 18:22:40,047  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (754cf946488266e434eafb41d97bbc6f)] -> xpath: (//a//i[@title='Delete'])[1]]
-2023-12-07 18:22:40,053  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
-2023-12-07 18:22:40,064  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
-2023-12-07 18:22:42,076  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:42,100  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
-2023-12-07 18:22:42,100  INFO [main] TestBase:64 - *************** Test - 4 is Done. ***************
-2023-12-07 18:22:42,102  INFO [main] TestBase:70 - *************** Closing Browser. ***************
+2023-12-07 23:06:01,104  INFO [main] LoginPageTest:19 - *************** Before Test Method ***************
+2023-12-07 23:06:05,438  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:06:05,445  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:06:08,693  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:06:08,711  INFO [main] LoginPageTest:31 - *************** Test - 1 | Login Page Title Test ***************
+2023-12-07 23:06:11,748  INFO [main] LoginPageTest:25 - *************** Closing Browser ***************
+2023-12-07 23:06:12,007  INFO [main] LoginPageTest:19 - *************** Before Test Method ***************
+2023-12-07 23:06:14,944  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:06:14,945  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:06:18,833  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:06:18,842  INFO [main] LoginPageTest:38 - *************** Test - 2 | Logo / Image Test ***************
+2023-12-07 23:06:18,848  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //img[@class='img-responsive']
+2023-12-07 23:06:18,901  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //img[@class='img-responsive']
+2023-12-07 23:06:18,960  INFO [main] LoginPageTest:25 - *************** Closing Browser ***************
+2023-12-07 23:06:22,342  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:06:22,343  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:06:25,696  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:06:25,698  INFO [main] HomePageTest:28 - ***************	HomePage Test initialize	***************
+2023-12-07 23:06:25,699  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:06:25,705  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:06:25,769  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:06:25,775  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (f63f8f8f4a1102b33c99cb5dcb6effdb)] -> name: username] before any changes made
+2023-12-07 23:06:25,931  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (f63f8f8f4a1102b33c99cb5dcb6effdb)] -> name: username]
+2023-12-07 23:06:25,934  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:06:25,956  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:06:25,957  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (f63f8f8f4a1102b33c99cb5dcb6effdb)] -> name: password] before any changes made
+2023-12-07 23:06:26,031  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (f63f8f8f4a1102b33c99cb5dcb6effdb)] -> name: password]
+2023-12-07 23:06:26,032  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:06:26,057  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:06:26,058  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (f63f8f8f4a1102b33c99cb5dcb6effdb)] -> xpath: //input[@type='submit']]
+2023-12-07 23:06:31,436  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (f63f8f8f4a1102b33c99cb5dcb6effdb)] -> xpath: //input[@type='submit']]
+2023-12-07 23:06:34,497  INFO [main] HomePageTest:36 -  ***************	Test 1 - Verifying Home Page Title	*************** 
+2023-12-07 23:06:34,534  INFO [main] HomePageTest:56 - ***************	After Method - Close Browser	***************
+2023-12-07 23:06:37,712  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:06:37,714  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:06:40,747  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:06:40,753  INFO [main] HomePageTest:28 - ***************	HomePage Test initialize	***************
+2023-12-07 23:06:40,754  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:06:40,755  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:06:40,805  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:06:40,806  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (432e1d9ca0b7e298d3ee9eaad43770b1)] -> name: username] before any changes made
+2023-12-07 23:06:40,918  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (432e1d9ca0b7e298d3ee9eaad43770b1)] -> name: username]
+2023-12-07 23:06:40,919  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:06:40,942  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:06:40,942  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (432e1d9ca0b7e298d3ee9eaad43770b1)] -> name: password] before any changes made
+2023-12-07 23:06:41,022  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (432e1d9ca0b7e298d3ee9eaad43770b1)] -> name: password]
+2023-12-07 23:06:41,023  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:06:41,041  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:06:41,042  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (432e1d9ca0b7e298d3ee9eaad43770b1)] -> xpath: //input[@type='submit']]
+2023-12-07 23:06:46,164  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (432e1d9ca0b7e298d3ee9eaad43770b1)] -> xpath: //input[@type='submit']]
+2023-12-07 23:06:49,220  INFO [main] HomePageTest:43 -  ***************	Test 2 - Verifying Username Test	*************** 
+2023-12-07 23:06:49,222  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//td[@align='left'])[1]
+2023-12-07 23:06:49,261  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//td[@align='left'])[1]
+2023-12-07 23:06:49,287  INFO [main] HomePageTest:56 - ***************	After Method - Close Browser	***************
+2023-12-07 23:06:52,886  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:06:52,887  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:06:56,094  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:06:56,095  INFO [main] HomePageTest:28 - ***************	HomePage Test initialize	***************
+2023-12-07 23:06:56,096  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:06:56,096  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:06:56,165  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:06:56,165  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (138296d45d809ea1c55f775e97536517)] -> name: username] before any changes made
+2023-12-07 23:06:56,267  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (138296d45d809ea1c55f775e97536517)] -> name: username]
+2023-12-07 23:06:56,267  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:06:56,287  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:06:56,287  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (138296d45d809ea1c55f775e97536517)] -> name: password] before any changes made
+2023-12-07 23:06:56,376  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (138296d45d809ea1c55f775e97536517)] -> name: password]
+2023-12-07 23:06:56,377  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:06:56,400  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:06:56,400  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (138296d45d809ea1c55f775e97536517)] -> xpath: //input[@type='submit']]
+2023-12-07 23:07:02,142  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (138296d45d809ea1c55f775e97536517)] -> xpath: //input[@type='submit']]
+2023-12-07 23:07:05,193  INFO [main] HomePageTest:50 -  ***************	Test 3 - Verifying contect Test	*************** 
+2023-12-07 23:07:05,193  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Contacts']
+2023-12-07 23:07:05,238  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Contacts']
+2023-12-07 23:07:05,238  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (138296d45d809ea1c55f775e97536517)] -> xpath: //a[normalize-space()='Contacts']]
+2023-12-07 23:07:06,382  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (138296d45d809ea1c55f775e97536517)] -> xpath: //a[normalize-space()='Contacts']]
+2023-12-07 23:07:06,387  INFO [main] HomePageTest:56 - ***************	After Method - Close Browser	***************
+2023-12-07 23:07:06,612  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test | Befor Test Method  ***************
+2023-12-07 23:07:10,083  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:07:10,084  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:07:13,408  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:07:13,409  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:07:13,409  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:07:13,442  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:07:13,442  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (84a63770e31b0f14da192331392a4edf)] -> name: username] before any changes made
+2023-12-07 23:07:13,544  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (84a63770e31b0f14da192331392a4edf)] -> name: username]
+2023-12-07 23:07:13,545  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:07:13,565  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:07:13,565  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (84a63770e31b0f14da192331392a4edf)] -> name: password] before any changes made
+2023-12-07 23:07:13,656  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (84a63770e31b0f14da192331392a4edf)] -> name: password]
+2023-12-07 23:07:13,656  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:07:13,676  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:07:13,676  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (84a63770e31b0f14da192331392a4edf)] -> xpath: //input[@type='submit']]
+2023-12-07 23:07:18,881  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (84a63770e31b0f14da192331392a4edf)] -> xpath: //input[@type='submit']]
+2023-12-07 23:07:18,884  INFO [main] ContactsPageTest:30 - *************** Befor Test Method | Done  ***************
+2023-12-07 23:07:18,890  INFO [main] ContactsPageTest:36 - *************** Test - 1 | Contect Lable is Display Test ***************
+2023-12-07 23:07:18,947  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Contacts']
+2023-12-07 23:07:18,967  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Contacts']
+2023-12-07 23:07:18,967  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (84a63770e31b0f14da192331392a4edf)] -> xpath: //a[normalize-space()='Contacts']]
+2023-12-07 23:07:19,872  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (84a63770e31b0f14da192331392a4edf)] -> xpath: //a[normalize-space()='Contacts']]
+2023-12-07 23:07:19,873  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //td[contains(text(),'Contacts')]
+2023-12-07 23:07:19,898  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //td[contains(text(),'Contacts')]
+2023-12-07 23:07:19,924  INFO [main] ContactsPageTest:41 - *************** Test - 1 | Done  ***************
+2023-12-07 23:07:19,933  INFO [main] ContactsPageTest:79 - *************** Closing Browser ***************
+2023-12-07 23:07:23,169  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test | Befor Test Method  ***************
+2023-12-07 23:07:26,360  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:07:26,362  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:07:29,617  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:07:29,619  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:07:29,620  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:07:29,675  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:07:29,676  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (302331a35b959cf943d6e16d42b56387)] -> name: username] before any changes made
+2023-12-07 23:07:29,784  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (302331a35b959cf943d6e16d42b56387)] -> name: username]
+2023-12-07 23:07:29,784  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:07:29,804  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:07:29,804  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (302331a35b959cf943d6e16d42b56387)] -> name: password] before any changes made
+2023-12-07 23:07:29,898  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (302331a35b959cf943d6e16d42b56387)] -> name: password]
+2023-12-07 23:07:29,899  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:07:29,919  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:07:29,919  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (302331a35b959cf943d6e16d42b56387)] -> xpath: //input[@type='submit']]
+2023-12-07 23:07:35,522  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (302331a35b959cf943d6e16d42b56387)] -> xpath: //input[@type='submit']]
+2023-12-07 23:07:35,524  INFO [main] ContactsPageTest:30 - *************** Befor Test Method | Done  ***************
+2023-12-07 23:07:35,534  INFO [main] ContactsPageTest:46 - *************** Test - 2 | Checkbox in conct click Test ***************
+2023-12-07 23:07:35,578  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Contacts']
+2023-12-07 23:07:35,597  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Contacts']
+2023-12-07 23:07:35,598  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (302331a35b959cf943d6e16d42b56387)] -> xpath: //a[normalize-space()='Contacts']]
+2023-12-07 23:07:36,508  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (302331a35b959cf943d6e16d42b56387)] -> xpath: //a[normalize-space()='Contacts']]
+2023-12-07 23:07:36,509  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //td[contains(text(),'Contacts')]/../../../../../..//input[@type='checkbox'][1]})
+2023-12-07 23:07:36,534  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //td[contains(text(),'Contacts')]/../../../../../..//input[@type='checkbox'][1]})
+2023-12-07 23:07:36,535  INFO [main] ContactsPageTest:50 - *************** Test - 2 | Done  ***************
+2023-12-07 23:07:36,538  INFO [main] ContactsPageTest:79 - *************** Closing Browser ***************
+2023-12-07 23:07:40,771  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test | Befor Test Method  ***************
+2023-12-07 23:07:43,743  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:07:43,744  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:07:46,733  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:07:46,734  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:07:46,737  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:07:46,793  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:07:46,795  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> name: username] before any changes made
+2023-12-07 23:07:46,899  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> name: username]
+2023-12-07 23:07:46,899  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:07:46,919  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:07:46,919  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> name: password] before any changes made
+2023-12-07 23:07:46,998  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> name: password]
+2023-12-07 23:07:46,998  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:07:47,018  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:07:47,019  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> xpath: //input[@type='submit']]
+2023-12-07 23:07:51,947  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> xpath: //input[@type='submit']]
+2023-12-07 23:07:51,949  INFO [main] ContactsPageTest:30 - *************** Befor Test Method | Done  ***************
+2023-12-07 23:07:51,960  INFO [main] ContactsPageTest:61 - *************** Test - 3 | Creating New Contect  ***************
+2023-12-07 23:07:52,012  INFO [Forwarding actions on session 9fcd71487c5ea1798748f0d6226286e5 to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2023-12-07 23:07:52,032  INFO [Forwarding actions on session 9fcd71487c5ea1798748f0d6226286e5 to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2023-12-07 23:07:52,194  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[contains(text(),'New Contact')]
+2023-12-07 23:07:52,213  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[contains(text(),'New Contact')]
+2023-12-07 23:07:52,213  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> xpath: //a[contains(text(),'New Contact')]]
+2023-12-07 23:07:54,048  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> xpath: //a[contains(text(),'New Contact')]]
+2023-12-07 23:07:54,052  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: title
+2023-12-07 23:07:54,069  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: title
+2023-12-07 23:07:54,096  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
+2023-12-07 23:07:54,117  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
+2023-12-07 23:07:54,147  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[[[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+2023-12-07 23:07:54,207  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[[[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+2023-12-07 23:07:54,208  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@id='first_name']
+2023-12-07 23:07:54,232  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@id='first_name']
+2023-12-07 23:07:54,233  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> xpath: //input[@id='first_name']] before any changes made
+2023-12-07 23:07:54,345  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> xpath: //input[@id='first_name']]
+2023-12-07 23:07:54,346  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: surname
+2023-12-07 23:07:54,363  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: surname
+2023-12-07 23:07:54,364  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> id: surname] before any changes made
+2023-12-07 23:07:54,476  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> id: surname]
+2023-12-07 23:07:54,476  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:07:54,494  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:07:54,495  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:07:54,610  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:07:54,610  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:07:54,631  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:07:54,631  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> xpath: //input[@value='Save']]
+2023-12-07 23:07:56,180  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (9fcd71487c5ea1798748f0d6226286e5)] -> xpath: //input[@value='Save']]
+2023-12-07 23:07:56,181  INFO [main] ContactsPageTest:65 - *************** Test - 3 | Done  ***************
+2023-12-07 23:07:56,187  INFO [main] ContactsPageTest:79 - *************** Closing Browser ***************
+2023-12-07 23:07:59,518  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test | Befor Test Method  ***************
+2023-12-07 23:08:02,744  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:08:02,745  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:08:06,074  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:08:06,075  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:08:06,077  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:08:06,123  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:08:06,123  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> name: username] before any changes made
+2023-12-07 23:08:06,231  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> name: username]
+2023-12-07 23:08:06,231  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:08:06,254  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:08:06,255  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> name: password] before any changes made
+2023-12-07 23:08:06,328  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> name: password]
+2023-12-07 23:08:06,328  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:08:06,348  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:08:06,348  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> xpath: //input[@type='submit']]
+2023-12-07 23:08:11,986  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> xpath: //input[@type='submit']]
+2023-12-07 23:08:11,987  INFO [main] ContactsPageTest:30 - *************** Befor Test Method | Done  ***************
+2023-12-07 23:08:11,990  INFO [main] ContactsPageTest:61 - *************** Test - 3 | Creating New Contect  ***************
+2023-12-07 23:08:12,036  INFO [Forwarding actions on session bf5d9a6a77f964a0f09cd8a43b130808 to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2023-12-07 23:08:12,053  INFO [Forwarding actions on session bf5d9a6a77f964a0f09cd8a43b130808 to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2023-12-07 23:08:12,234  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[contains(text(),'New Contact')]
+2023-12-07 23:08:12,261  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[contains(text(),'New Contact')]
+2023-12-07 23:08:12,261  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> xpath: //a[contains(text(),'New Contact')]]
+2023-12-07 23:08:13,417  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> xpath: //a[contains(text(),'New Contact')]]
+2023-12-07 23:08:13,418  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: title
+2023-12-07 23:08:13,437  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: title
+2023-12-07 23:08:13,463  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Dr."]
+2023-12-07 23:08:13,484  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: .//option[normalize-space(.) = "Dr."]
+2023-12-07 23:08:13,506  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[[[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Dr."]]
+2023-12-07 23:08:13,555  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[[[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Dr."]]
+2023-12-07 23:08:13,555  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@id='first_name']
+2023-12-07 23:08:13,575  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@id='first_name']
+2023-12-07 23:08:13,575  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> xpath: //input[@id='first_name']] before any changes made
+2023-12-07 23:08:13,679  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> xpath: //input[@id='first_name']]
+2023-12-07 23:08:13,680  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: surname
+2023-12-07 23:08:13,696  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: surname
+2023-12-07 23:08:13,696  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> id: surname] before any changes made
+2023-12-07 23:08:13,787  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> id: surname]
+2023-12-07 23:08:13,787  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:08:13,802  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:08:13,802  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:08:13,890  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:08:13,891  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:08:13,908  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:08:13,908  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> xpath: //input[@value='Save']]
+2023-12-07 23:08:15,446  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (bf5d9a6a77f964a0f09cd8a43b130808)] -> xpath: //input[@value='Save']]
+2023-12-07 23:08:15,447  INFO [main] ContactsPageTest:65 - *************** Test - 3 | Done  ***************
+2023-12-07 23:08:15,454  INFO [main] ContactsPageTest:79 - *************** Closing Browser ***************
+2023-12-07 23:08:18,693  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test | Befor Test Method  ***************
+2023-12-07 23:08:22,174  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:08:22,175  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:08:25,787  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:08:25,788  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:08:25,789  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:08:25,815  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:08:25,816  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> name: username] before any changes made
+2023-12-07 23:08:25,915  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> name: username]
+2023-12-07 23:08:25,916  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:08:25,934  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:08:25,935  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> name: password] before any changes made
+2023-12-07 23:08:26,012  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> name: password]
+2023-12-07 23:08:26,013  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:08:26,034  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:08:26,034  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> xpath: //input[@type='submit']]
+2023-12-07 23:08:31,520  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> xpath: //input[@type='submit']]
+2023-12-07 23:08:31,522  INFO [main] ContactsPageTest:30 - *************** Befor Test Method | Done  ***************
+2023-12-07 23:08:31,530  INFO [main] ContactsPageTest:61 - *************** Test - 3 | Creating New Contect  ***************
+2023-12-07 23:08:31,569  INFO [Forwarding actions on session b2a9a636fac802b8b0ae9acb06830c43 to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2023-12-07 23:08:31,586  INFO [Forwarding actions on session b2a9a636fac802b8b0ae9acb06830c43 to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2023-12-07 23:08:31,748  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[contains(text(),'New Contact')]
+2023-12-07 23:08:31,765  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[contains(text(),'New Contact')]
+2023-12-07 23:08:31,766  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> xpath: //a[contains(text(),'New Contact')]]
+2023-12-07 23:08:32,924  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> xpath: //a[contains(text(),'New Contact')]]
+2023-12-07 23:08:32,925  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: title
+2023-12-07 23:08:32,957  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: title
+2023-12-07 23:08:32,982  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
+2023-12-07 23:08:33,003  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
+2023-12-07 23:08:33,029  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[[[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+2023-12-07 23:08:33,080  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[[[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+2023-12-07 23:08:33,080  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@id='first_name']
+2023-12-07 23:08:33,105  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@id='first_name']
+2023-12-07 23:08:33,106  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> xpath: //input[@id='first_name']] before any changes made
+2023-12-07 23:08:33,216  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> xpath: //input[@id='first_name']]
+2023-12-07 23:08:33,216  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: surname
+2023-12-07 23:08:33,246  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: surname
+2023-12-07 23:08:33,247  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> id: surname] before any changes made
+2023-12-07 23:08:33,339  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> id: surname]
+2023-12-07 23:08:33,339  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:08:33,356  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:08:33,357  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:08:33,441  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:08:33,441  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:08:33,459  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:08:33,459  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> xpath: //input[@value='Save']]
+2023-12-07 23:08:34,958  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (b2a9a636fac802b8b0ae9acb06830c43)] -> xpath: //input[@value='Save']]
+2023-12-07 23:08:34,959  INFO [main] ContactsPageTest:65 - *************** Test - 3 | Done  ***************
+2023-12-07 23:08:34,964  INFO [main] ContactsPageTest:79 - *************** Closing Browser ***************
+2023-12-07 23:08:38,220  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test | Befor Test Method  ***************
+2023-12-07 23:08:41,705  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:08:41,705  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:08:45,349  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:08:45,350  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:08:45,350  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:08:45,375  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:08:45,375  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> name: username] before any changes made
+2023-12-07 23:08:45,476  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> name: username]
+2023-12-07 23:08:45,476  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:08:45,494  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:08:45,495  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> name: password] before any changes made
+2023-12-07 23:08:45,575  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> name: password]
+2023-12-07 23:08:45,575  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:08:45,594  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:08:45,594  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> xpath: //input[@type='submit']]
+2023-12-07 23:08:51,250  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> xpath: //input[@type='submit']]
+2023-12-07 23:08:51,252  INFO [main] ContactsPageTest:30 - *************** Befor Test Method | Done  ***************
+2023-12-07 23:08:51,257  INFO [main] ContactsPageTest:61 - *************** Test - 3 | Creating New Contect  ***************
+2023-12-07 23:08:51,297  INFO [Forwarding actions on session 768203cc40b08a5916bfa8553ef78c08 to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[contains(text(),'Contacts')]
+2023-12-07 23:08:51,315  INFO [Forwarding actions on session 768203cc40b08a5916bfa8553ef78c08 to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[contains(text(),'Contacts')]
+2023-12-07 23:08:51,479  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[contains(text(),'New Contact')]
+2023-12-07 23:08:51,496  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[contains(text(),'New Contact')]
+2023-12-07 23:08:51,496  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> xpath: //a[contains(text(),'New Contact')]]
+2023-12-07 23:08:52,625  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> xpath: //a[contains(text(),'New Contact')]]
+2023-12-07 23:08:52,626  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: title
+2023-12-07 23:08:52,643  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: title
+2023-12-07 23:08:52,666  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
+2023-12-07 23:08:52,685  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: .//option[normalize-space(.) = "Mr."]
+2023-12-07 23:08:52,711  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[[[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+2023-12-07 23:08:52,761  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[[[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> name: title]] -> xpath: .//option[normalize-space(.) = "Mr."]]
+2023-12-07 23:08:52,762  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@id='first_name']
+2023-12-07 23:08:52,780  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@id='first_name']
+2023-12-07 23:08:52,780  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> xpath: //input[@id='first_name']] before any changes made
+2023-12-07 23:08:52,875  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> xpath: //input[@id='first_name']]
+2023-12-07 23:08:52,875  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: surname
+2023-12-07 23:08:52,890  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: surname
+2023-12-07 23:08:52,890  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> id: surname] before any changes made
+2023-12-07 23:08:52,977  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> id: surname]
+2023-12-07 23:08:52,977  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:08:52,994  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:08:52,994  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:08:53,080  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:08:53,080  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:08:53,101  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:08:53,101  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> xpath: //input[@value='Save']]
+2023-12-07 23:08:54,627  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (768203cc40b08a5916bfa8553ef78c08)] -> xpath: //input[@value='Save']]
+2023-12-07 23:08:54,628  INFO [main] ContactsPageTest:65 - *************** Test - 3 | Done  ***************
+2023-12-07 23:08:54,631  INFO [main] ContactsPageTest:79 - *************** Closing Browser ***************
+2023-12-07 23:08:57,876  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test | Befor Test Method  ***************
+2023-12-07 23:09:01,373  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:09:01,373  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:09:04,915  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:09:04,916  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:09:04,917  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:09:04,944  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:09:04,944  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> name: username] before any changes made
+2023-12-07 23:09:05,057  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> name: username]
+2023-12-07 23:09:05,057  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:09:05,074  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:09:05,074  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> name: password] before any changes made
+2023-12-07 23:09:05,147  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> name: password]
+2023-12-07 23:09:05,147  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:09:05,169  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:09:05,170  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: //input[@type='submit']]
+2023-12-07 23:09:10,640  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: //input[@type='submit']]
+2023-12-07 23:09:10,642  INFO [main] ContactsPageTest:30 - *************** Befor Test Method | Done  ***************
+2023-12-07 23:09:10,649  INFO [main] ContactsPageTest:70 - *************** Test - 4 | Delating All Contects  ***************
+2023-12-07 23:09:10,691  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Contacts']
+2023-12-07 23:09:10,709  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Contacts']
+2023-12-07 23:09:10,709  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: //a[normalize-space()='Contacts']]
+2023-12-07 23:09:11,612  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: //a[normalize-space()='Contacts']]
+2023-12-07 23:09:11,612  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //td[@class='datalistrow']//a//i[@title='Delete']
+2023-12-07 23:09:11,630  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //td[@class='datalistrow']//a//i[@title='Delete']
+2023-12-07 23:09:11,633  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:09:11,648  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:09:11,648  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:09:11,749  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:09:11,763  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:09:11,781  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:09:13,794  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:09:13,949  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:09:13,950  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:09:14,037  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:09:14,047  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:09:14,062  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:09:16,079  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:09:16,253  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:09:16,253  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:09:16,341  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:09:16,347  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:09:16,356  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:09:18,363  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:09:18,509  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:09:18,509  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:09:18,597  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (a821f178dc7ec6b12c3f278d3cdace45)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:09:18,605  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:09:18,620  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:09:20,639  INFO [main] ContactsPageTest:74 - *************** Test - 4 | Done  ***************
+2023-12-07 23:09:20,654  INFO [main] ContactsPageTest:79 - *************** Closing Browser ***************
+2023-12-07 23:09:23,953  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test. | Befor Test Method.  ***************
+2023-12-07 23:09:28,032  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:09:28,033  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:09:31,290  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:09:31,292  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:09:31,294  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:09:31,318  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:09:31,318  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (b9f62ac34810d463c2f08bfd680ccfef)] -> name: username] before any changes made
+2023-12-07 23:09:31,422  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (b9f62ac34810d463c2f08bfd680ccfef)] -> name: username]
+2023-12-07 23:09:31,423  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:09:31,443  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:09:31,443  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (b9f62ac34810d463c2f08bfd680ccfef)] -> name: password] before any changes made
+2023-12-07 23:09:31,519  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (b9f62ac34810d463c2f08bfd680ccfef)] -> name: password]
+2023-12-07 23:09:31,521  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:09:31,541  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:09:31,542  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (b9f62ac34810d463c2f08bfd680ccfef)] -> xpath: //input[@type='submit']]
+2023-12-07 23:09:36,807  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (b9f62ac34810d463c2f08bfd680ccfef)] -> xpath: //input[@type='submit']]
+2023-12-07 23:09:36,845  INFO [main] ContactsPageTest:31 - *************** Before Method Done ***************
+2023-12-07 23:09:36,847  INFO [main] ContactsPageTest:36 - *************** Test - 1 | Deal Page Valadition.  ***************
+2023-12-07 23:09:36,849  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:09:36,867  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:09:36,867  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (b9f62ac34810d463c2f08bfd680ccfef)] -> xpath: //a[normalize-space()='Deals']]
+2023-12-07 23:09:38,112  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (b9f62ac34810d463c2f08bfd680ccfef)] -> xpath: //a[normalize-space()='Deals']]
+2023-12-07 23:09:38,113  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@value='New Deal']
+2023-12-07 23:09:38,131  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@value='New Deal']
+2023-12-07 23:09:38,149  INFO [main] ContactsPageTest:41 - *************** Test - 1 | Done ***************
+2023-12-07 23:09:38,152  INFO [main] ContactsPageTest:67 - *************** Closing Browser.  ***************
+2023-12-07 23:09:38,464  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test. | Befor Test Method.  ***************
+2023-12-07 23:09:41,487  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:09:41,487  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:09:44,922  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:09:44,923  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:09:44,924  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:09:44,965  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:09:44,965  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> name: username] before any changes made
+2023-12-07 23:09:45,069  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> name: username]
+2023-12-07 23:09:45,070  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:09:45,091  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:09:45,091  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> name: password] before any changes made
+2023-12-07 23:09:45,165  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> name: password]
+2023-12-07 23:09:45,165  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:09:45,188  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:09:45,189  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> xpath: //input[@type='submit']]
+2023-12-07 23:09:50,383  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> xpath: //input[@type='submit']]
+2023-12-07 23:09:50,427  INFO [main] ContactsPageTest:31 - *************** Before Method Done ***************
+2023-12-07 23:09:50,433  INFO [main] ContactsPageTest:52 - *************** Test - 2 | Deal Page Valadition.  ***************
+2023-12-07 23:09:50,433  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:09:50,454  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:09:52,648  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Deal']
+2023-12-07 23:09:52,678  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Deal']
+2023-12-07 23:09:52,679  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> xpath: //a[normalize-space()='New Deal']]
+2023-12-07 23:09:54,079  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> xpath: //a[normalize-space()='New Deal']]
+2023-12-07 23:09:54,079  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
+2023-12-07 23:09:54,096  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
+2023-12-07 23:09:54,097  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> id: title] before any changes made
+2023-12-07 23:09:54,154  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> id: title]
+2023-12-07 23:09:54,154  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:09:54,171  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:09:54,172  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:09:54,244  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:09:54,244  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:09:54,260  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:09:54,260  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> xpath: //input[@value='Save']]
+2023-12-07 23:09:55,885  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (68c5ef946a93cec0606a22d5fe919a6d)] -> xpath: //input[@value='Save']]
+2023-12-07 23:09:55,886  INFO [main] ContactsPageTest:54 - *************** Test -2 | Done ***************
+2023-12-07 23:09:55,892  INFO [main] ContactsPageTest:67 - *************** Closing Browser.  ***************
+2023-12-07 23:09:56,127  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test. | Befor Test Method.  ***************
+2023-12-07 23:09:59,961  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:09:59,962  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:10:03,538  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:10:03,539  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:10:03,540  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:10:03,588  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:10:03,588  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> name: username] before any changes made
+2023-12-07 23:10:03,689  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> name: username]
+2023-12-07 23:10:03,690  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:10:03,708  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:10:03,708  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> name: password] before any changes made
+2023-12-07 23:10:03,784  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> name: password]
+2023-12-07 23:10:03,784  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:10:03,803  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:10:03,803  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> xpath: //input[@type='submit']]
+2023-12-07 23:10:09,623  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> xpath: //input[@type='submit']]
+2023-12-07 23:10:09,665  INFO [main] ContactsPageTest:31 - *************** Before Method Done ***************
+2023-12-07 23:10:09,667  INFO [main] ContactsPageTest:52 - *************** Test - 2 | Deal Page Valadition.  ***************
+2023-12-07 23:10:09,667  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:10:09,685  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:10:11,867  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Deal']
+2023-12-07 23:10:11,896  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Deal']
+2023-12-07 23:10:11,897  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> xpath: //a[normalize-space()='New Deal']]
+2023-12-07 23:10:13,014  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> xpath: //a[normalize-space()='New Deal']]
+2023-12-07 23:10:13,015  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
+2023-12-07 23:10:13,034  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
+2023-12-07 23:10:13,034  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> id: title] before any changes made
+2023-12-07 23:10:13,092  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> id: title]
+2023-12-07 23:10:13,092  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:10:13,109  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:10:13,110  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:10:13,185  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:10:13,186  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:10:13,201  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:10:13,201  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> xpath: //input[@value='Save']]
+2023-12-07 23:10:14,771  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (d6fe9afbb9e99501fd84bfc49e8808c2)] -> xpath: //input[@value='Save']]
+2023-12-07 23:10:14,772  INFO [main] ContactsPageTest:54 - *************** Test -2 | Done ***************
+2023-12-07 23:10:14,776  INFO [main] ContactsPageTest:67 - *************** Closing Browser.  ***************
+2023-12-07 23:10:14,996  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test. | Befor Test Method.  ***************
+2023-12-07 23:10:18,700  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:10:18,700  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:10:21,833  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:10:21,834  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:10:21,834  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:10:21,901  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:10:21,901  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> name: username] before any changes made
+2023-12-07 23:10:22,002  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> name: username]
+2023-12-07 23:10:22,004  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:10:22,025  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:10:22,025  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> name: password] before any changes made
+2023-12-07 23:10:22,100  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> name: password]
+2023-12-07 23:10:22,100  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:10:22,119  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:10:22,119  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> xpath: //input[@type='submit']]
+2023-12-07 23:10:27,727  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> xpath: //input[@type='submit']]
+2023-12-07 23:10:27,773  INFO [main] ContactsPageTest:31 - *************** Before Method Done ***************
+2023-12-07 23:10:27,774  INFO [main] ContactsPageTest:52 - *************** Test - 2 | Deal Page Valadition.  ***************
+2023-12-07 23:10:27,774  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:10:27,792  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:10:29,963  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Deal']
+2023-12-07 23:10:29,992  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Deal']
+2023-12-07 23:10:29,992  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> xpath: //a[normalize-space()='New Deal']]
+2023-12-07 23:10:31,124  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> xpath: //a[normalize-space()='New Deal']]
+2023-12-07 23:10:31,124  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
+2023-12-07 23:10:31,142  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
+2023-12-07 23:10:31,142  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> id: title] before any changes made
+2023-12-07 23:10:31,208  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> id: title]
+2023-12-07 23:10:31,209  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:10:31,227  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:10:31,227  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:10:31,302  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:10:31,302  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:10:31,321  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:10:31,321  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> xpath: //input[@value='Save']]
+2023-12-07 23:10:32,866  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (1d229bf684a3461848435cb2426d7066)] -> xpath: //input[@value='Save']]
+2023-12-07 23:10:32,867  INFO [main] ContactsPageTest:54 - *************** Test -2 | Done ***************
+2023-12-07 23:10:32,870  INFO [main] ContactsPageTest:67 - *************** Closing Browser.  ***************
+2023-12-07 23:10:33,115  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test. | Befor Test Method.  ***************
+2023-12-07 23:10:36,187  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:10:36,188  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:10:39,628  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:10:39,630  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:10:39,633  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:10:39,684  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:10:39,684  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> name: username] before any changes made
+2023-12-07 23:10:39,791  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> name: username]
+2023-12-07 23:10:39,791  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:10:39,819  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:10:39,820  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> name: password] before any changes made
+2023-12-07 23:10:39,891  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> name: password]
+2023-12-07 23:10:39,891  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:10:39,908  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:10:39,909  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> xpath: //input[@type='submit']]
+2023-12-07 23:10:45,474  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> xpath: //input[@type='submit']]
+2023-12-07 23:10:45,517  INFO [main] ContactsPageTest:31 - *************** Before Method Done ***************
+2023-12-07 23:10:45,519  INFO [main] ContactsPageTest:52 - *************** Test - 2 | Deal Page Valadition.  ***************
+2023-12-07 23:10:45,520  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:10:45,540  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:10:47,718  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Deal']
+2023-12-07 23:10:47,745  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Deal']
+2023-12-07 23:10:47,745  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> xpath: //a[normalize-space()='New Deal']]
+2023-12-07 23:10:48,931  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> xpath: //a[normalize-space()='New Deal']]
+2023-12-07 23:10:48,932  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
+2023-12-07 23:10:48,953  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
+2023-12-07 23:10:48,954  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> id: title] before any changes made
+2023-12-07 23:10:49,007  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> id: title]
+2023-12-07 23:10:49,007  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:10:49,024  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:10:49,024  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:10:49,106  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:10:49,107  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:10:49,122  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@value='Save']
+2023-12-07 23:10:49,122  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> xpath: //input[@value='Save']]
+2023-12-07 23:10:50,742  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (e2c8e400974d8f181feafe1aea1ed171)] -> xpath: //input[@value='Save']]
+2023-12-07 23:10:50,743  INFO [main] ContactsPageTest:54 - *************** Test -2 | Done ***************
+2023-12-07 23:10:50,746  INFO [main] ContactsPageTest:67 - *************** Closing Browser.  ***************
+2023-12-07 23:10:50,974  INFO [main] ContactsPageTest:27 - *************** Contacts Page Test. | Befor Test Method.  ***************
+2023-12-07 23:10:54,116  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:10:54,117  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:10:57,481  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:10:57,483  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:10:57,484  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:10:57,550  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:10:57,550  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> name: username] before any changes made
+2023-12-07 23:10:57,653  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> name: username]
+2023-12-07 23:10:57,653  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:10:57,669  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:10:57,670  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> name: password] before any changes made
+2023-12-07 23:10:57,744  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> name: password]
+2023-12-07 23:10:57,744  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:10:57,761  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:10:57,762  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: //input[@type='submit']]
+2023-12-07 23:10:58,984  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: //input[@type='submit']]
+2023-12-07 23:11:03,299  INFO [main] ContactsPageTest:31 - *************** Before Method Done ***************
+2023-12-07 23:11:03,301  INFO [main] ContactsPageTest:59 - *************** Test - 3 | Delete Deals Test.  ***************
+2023-12-07 23:11:03,302  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:11:03,319  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Deals']
+2023-12-07 23:11:03,320  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: //a[normalize-space()='Deals']]
+2023-12-07 23:11:04,516  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: //a[normalize-space()='Deals']]
+2023-12-07 23:11:04,516  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //td[@class='datalistrow']//a//i[@title='Delete']
+2023-12-07 23:11:04,532  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //td[@class='datalistrow']//a//i[@title='Delete']
+2023-12-07 23:11:04,532  INFO [main] DealsPage:68 - Delating Deal No :1
+2023-12-07 23:11:04,532  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:11:04,547  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:11:04,548  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:11:04,641  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:11:04,652  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:11:04,664  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:11:06,667  INFO [main] DealsPage:68 - Delating Deal No :2
+2023-12-07 23:11:06,667  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:11:06,687  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:11:06,688  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:11:06,787  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:11:06,796  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:11:06,803  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:11:08,810  INFO [main] DealsPage:68 - Delating Deal No :3
+2023-12-07 23:11:08,810  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:11:08,831  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:11:08,832  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:11:08,948  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:11:08,954  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:11:08,961  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:11:10,975  INFO [main] DealsPage:68 - Delating Deal No :4
+2023-12-07 23:11:10,975  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:11:10,992  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]
+2023-12-07 23:11:10,993  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:11:11,087  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (aae860226cb4bb003ebb9bbabd2fc42d)] -> xpath: (//td[@class='datalistrow']//a//i[@title='Delete'])[1]]
+2023-12-07 23:11:11,096  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:11:11,113  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:11:13,115  INFO [main] ContactsPageTest:62 - *************** Test -3 | Done ***************
+2023-12-07 23:11:13,118  INFO [main] ContactsPageTest:67 - *************** Closing Browser.  ***************
+2023-12-07 23:11:13,372  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
+2023-12-07 23:11:16,328  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:11:16,329  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:11:19,463  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:11:19,466  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:11:19,466  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:11:19,514  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:11:19,515  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (cb8decf36fdbc8059815e7b91f980266)] -> name: username] before any changes made
+2023-12-07 23:11:19,620  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (cb8decf36fdbc8059815e7b91f980266)] -> name: username]
+2023-12-07 23:11:19,621  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:11:19,639  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:11:19,639  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (cb8decf36fdbc8059815e7b91f980266)] -> name: password] before any changes made
+2023-12-07 23:11:19,711  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (cb8decf36fdbc8059815e7b91f980266)] -> name: password]
+2023-12-07 23:11:19,711  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:11:19,731  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:11:19,731  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (cb8decf36fdbc8059815e7b91f980266)] -> xpath: //input[@type='submit']]
+2023-12-07 23:11:20,955  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (cb8decf36fdbc8059815e7b91f980266)] -> xpath: //input[@type='submit']]
+2023-12-07 23:11:24,860  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
+2023-12-07 23:11:24,862  INFO [main] TestBase:35 - *************** Test - 1 | Validating Task Page. ***************
+2023-12-07 23:11:24,862  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:11:24,879  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:11:24,880  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (cb8decf36fdbc8059815e7b91f980266)] -> xpath: //a[normalize-space()='Tasks']]
+2023-12-07 23:11:25,687  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (cb8decf36fdbc8059815e7b91f980266)] -> xpath: //a[normalize-space()='Tasks']]
+2023-12-07 23:11:27,698  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//td//em)[2]
+2023-12-07 23:11:27,728  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//td//em)[2]
+2023-12-07 23:11:27,729  INFO [main] MyWebDriverDecorator:173 - Before GetText from WebElement : [[ChromeDriver: chrome on windows (cb8decf36fdbc8059815e7b91f980266)] -> xpath: (//td//em)[2]]
+2023-12-07 23:11:27,753  INFO [main] MyWebDriverDecorator:180 - Getting Text from WebElement : [[ChromeDriver: chrome on windows (cb8decf36fdbc8059815e7b91f980266)] -> xpath: (//td//em)[2]] ( Text : Showing all tasks )
+2023-12-07 23:11:27,753  INFO [main] TestBase:59 - ***** Assertion Declaration ***** 
+2023-12-07 23:11:27,754  INFO [main] TestBase:37 - *************** Test - 1 is Done. ***************
+2023-12-07 23:11:27,757  INFO [main] TestBase:70 - *************** Closing Browser. ***************
+2023-12-07 23:11:28,031  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
+2023-12-07 23:11:31,272  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:11:31,272  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:11:34,527  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:11:34,527  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:11:34,528  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:11:34,553  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:11:34,554  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> name: username] before any changes made
+2023-12-07 23:11:34,659  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> name: username]
+2023-12-07 23:11:34,659  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:11:34,680  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:11:34,682  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> name: password] before any changes made
+2023-12-07 23:11:34,756  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> name: password]
+2023-12-07 23:11:34,756  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:11:34,774  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:11:34,774  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: //input[@type='submit']]
+2023-12-07 23:11:35,941  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: //input[@type='submit']]
+2023-12-07 23:11:40,150  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
+2023-12-07 23:11:40,153  INFO [main] TestBase:48 - *************** Test - 2 | Adding New Task. ***************
+2023-12-07 23:11:40,154  INFO [Forwarding actions on session 7dbd16fba0d31b602bad8d7c5e134c40 to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:11:40,171  INFO [Forwarding actions on session 7dbd16fba0d31b602bad8d7c5e134c40 to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:11:40,347  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Task']
+2023-12-07 23:11:40,362  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Task']
+2023-12-07 23:11:40,363  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: //a[normalize-space()='New Task']]
+2023-12-07 23:11:41,427  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: //a[normalize-space()='New Task']]
+2023-12-07 23:11:43,432  INFO [main] TestBase:69 - ** Entaring data in to Page **
+2023-12-07 23:11:43,432  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
+2023-12-07 23:11:43,448  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
+2023-12-07 23:11:43,449  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> id: title] before any changes made
+2023-12-07 23:11:43,494  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> id: title]
+2023-12-07 23:11:43,494  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='prospect_lookup']
+2023-12-07 23:11:43,511  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='prospect_lookup']
+2023-12-07 23:11:43,511  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: //input[@name='prospect_lookup']] before any changes made
+2023-12-07 23:11:43,603  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: //input[@name='prospect_lookup']]
+2023-12-07 23:11:43,603  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='case_lookup']
+2023-12-07 23:11:43,618  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='case_lookup']
+2023-12-07 23:11:43,619  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: //input[@name='case_lookup']] before any changes made
+2023-12-07 23:11:43,701  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: //input[@name='case_lookup']]
+2023-12-07 23:11:43,701  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:11:43,717  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:11:43,717  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:11:43,804  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:11:43,804  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//input[@value='Save'])[1]
+2023-12-07 23:11:43,819  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//input[@value='Save'])[1]
+2023-12-07 23:11:43,819  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: (//input[@value='Save'])[1]]
+2023-12-07 23:11:45,348  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (7dbd16fba0d31b602bad8d7c5e134c40)] -> xpath: (//input[@value='Save'])[1]]
+2023-12-07 23:11:45,348  INFO [main] TestBase:50 - *************** Test - 2 is Done. ***************
+2023-12-07 23:11:45,350  INFO [main] TestBase:70 - *************** Closing Browser. ***************
+2023-12-07 23:11:45,594  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
+2023-12-07 23:11:48,710  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:11:48,711  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:11:51,745  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:11:51,746  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:11:51,746  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:11:51,766  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:11:51,766  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> name: username] before any changes made
+2023-12-07 23:11:51,878  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> name: username]
+2023-12-07 23:11:51,878  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:11:51,898  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:11:51,898  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> name: password] before any changes made
+2023-12-07 23:11:51,972  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> name: password]
+2023-12-07 23:11:51,972  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:11:51,990  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:11:51,991  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: //input[@type='submit']]
+2023-12-07 23:11:56,962  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: //input[@type='submit']]
+2023-12-07 23:11:57,006  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
+2023-12-07 23:11:57,008  INFO [main] TestBase:48 - *************** Test - 2 | Adding New Task. ***************
+2023-12-07 23:11:57,009  INFO [Forwarding actions on session d6e3c1f37f8de683ba11b0ffcb33a61d to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:11:57,028  INFO [Forwarding actions on session d6e3c1f37f8de683ba11b0ffcb33a61d to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:11:57,201  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Task']
+2023-12-07 23:11:57,217  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Task']
+2023-12-07 23:11:57,217  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: //a[normalize-space()='New Task']]
+2023-12-07 23:11:58,338  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: //a[normalize-space()='New Task']]
+2023-12-07 23:12:00,353  INFO [main] TestBase:69 - ** Entaring data in to Page **
+2023-12-07 23:12:00,353  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
+2023-12-07 23:12:00,379  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
+2023-12-07 23:12:00,379  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> id: title] before any changes made
+2023-12-07 23:12:00,464  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> id: title]
+2023-12-07 23:12:00,464  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='prospect_lookup']
+2023-12-07 23:12:00,485  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='prospect_lookup']
+2023-12-07 23:12:00,486  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: //input[@name='prospect_lookup']] before any changes made
+2023-12-07 23:12:00,631  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: //input[@name='prospect_lookup']]
+2023-12-07 23:12:00,632  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='case_lookup']
+2023-12-07 23:12:00,656  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='case_lookup']
+2023-12-07 23:12:00,657  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: //input[@name='case_lookup']] before any changes made
+2023-12-07 23:12:00,734  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: //input[@name='case_lookup']]
+2023-12-07 23:12:00,734  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:12:00,751  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:12:00,751  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:12:00,846  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:12:00,846  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//input[@value='Save'])[1]
+2023-12-07 23:12:00,861  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//input[@value='Save'])[1]
+2023-12-07 23:12:00,861  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: (//input[@value='Save'])[1]]
+2023-12-07 23:12:02,430  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (d6e3c1f37f8de683ba11b0ffcb33a61d)] -> xpath: (//input[@value='Save'])[1]]
+2023-12-07 23:12:02,431  INFO [main] TestBase:50 - *************** Test - 2 is Done. ***************
+2023-12-07 23:12:02,433  INFO [main] TestBase:70 - *************** Closing Browser. ***************
+2023-12-07 23:12:02,674  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
+2023-12-07 23:12:06,036  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:12:06,037  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:12:09,411  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:12:09,412  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:12:09,412  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:12:09,431  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:12:09,431  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> name: username] before any changes made
+2023-12-07 23:12:09,538  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> name: username]
+2023-12-07 23:12:09,539  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:12:09,560  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:12:09,561  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> name: password] before any changes made
+2023-12-07 23:12:09,634  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> name: password]
+2023-12-07 23:12:09,634  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:12:09,655  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:12:09,655  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: //input[@type='submit']]
+2023-12-07 23:12:15,371  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: //input[@type='submit']]
+2023-12-07 23:12:15,410  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
+2023-12-07 23:12:15,412  INFO [main] TestBase:48 - *************** Test - 2 | Adding New Task. ***************
+2023-12-07 23:12:15,413  INFO [Forwarding actions on session 0b4ca413f7e98c4d74eb3411e0bf99de to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:12:15,431  INFO [Forwarding actions on session 0b4ca413f7e98c4d74eb3411e0bf99de to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:12:15,603  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Task']
+2023-12-07 23:12:15,619  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Task']
+2023-12-07 23:12:15,619  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: //a[normalize-space()='New Task']]
+2023-12-07 23:12:16,722  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: //a[normalize-space()='New Task']]
+2023-12-07 23:12:18,726  INFO [main] TestBase:69 - ** Entaring data in to Page **
+2023-12-07 23:12:18,726  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
+2023-12-07 23:12:18,755  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
+2023-12-07 23:12:18,756  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> id: title] before any changes made
+2023-12-07 23:12:18,812  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> id: title]
+2023-12-07 23:12:18,813  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='prospect_lookup']
+2023-12-07 23:12:18,832  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='prospect_lookup']
+2023-12-07 23:12:18,833  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: //input[@name='prospect_lookup']] before any changes made
+2023-12-07 23:12:18,954  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: //input[@name='prospect_lookup']]
+2023-12-07 23:12:18,955  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='case_lookup']
+2023-12-07 23:12:18,974  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='case_lookup']
+2023-12-07 23:12:18,974  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: //input[@name='case_lookup']] before any changes made
+2023-12-07 23:12:19,077  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: //input[@name='case_lookup']]
+2023-12-07 23:12:19,078  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:12:19,102  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:12:19,103  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:12:19,179  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:12:19,179  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//input[@value='Save'])[1]
+2023-12-07 23:12:19,196  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//input[@value='Save'])[1]
+2023-12-07 23:12:19,197  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: (//input[@value='Save'])[1]]
+2023-12-07 23:12:20,763  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (0b4ca413f7e98c4d74eb3411e0bf99de)] -> xpath: (//input[@value='Save'])[1]]
+2023-12-07 23:12:20,764  INFO [main] TestBase:50 - *************** Test - 2 is Done. ***************
+2023-12-07 23:12:20,767  INFO [main] TestBase:70 - *************** Closing Browser. ***************
+2023-12-07 23:12:20,995  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
+2023-12-07 23:12:24,315  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:12:24,315  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:12:27,489  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:12:27,490  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:12:27,490  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:12:27,542  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:12:27,543  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> name: username] before any changes made
+2023-12-07 23:12:27,647  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> name: username]
+2023-12-07 23:12:27,647  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:12:27,667  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:12:27,667  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> name: password] before any changes made
+2023-12-07 23:12:27,740  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> name: password]
+2023-12-07 23:12:27,741  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:12:27,757  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:12:27,758  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: //input[@type='submit']]
+2023-12-07 23:12:33,551  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: //input[@type='submit']]
+2023-12-07 23:12:33,600  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
+2023-12-07 23:12:33,602  INFO [main] TestBase:48 - *************** Test - 2 | Adding New Task. ***************
+2023-12-07 23:12:33,603  INFO [Forwarding actions on session 03b94c846e2148e3b3db8eb83df1777d to remote] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:12:33,623  INFO [Forwarding actions on session 03b94c846e2148e3b3db8eb83df1777d to remote] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:12:33,797  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='New Task']
+2023-12-07 23:12:33,812  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='New Task']
+2023-12-07 23:12:33,813  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: //a[normalize-space()='New Task']]
+2023-12-07 23:12:34,924  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: //a[normalize-space()='New Task']]
+2023-12-07 23:12:36,939  INFO [main] TestBase:69 - ** Entaring data in to Page **
+2023-12-07 23:12:36,939  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.id: title
+2023-12-07 23:12:36,965  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.id: title
+2023-12-07 23:12:36,965  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> id: title] before any changes made
+2023-12-07 23:12:37,017  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> id: title]
+2023-12-07 23:12:37,017  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='prospect_lookup']
+2023-12-07 23:12:37,033  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='prospect_lookup']
+2023-12-07 23:12:37,033  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: //input[@name='prospect_lookup']] before any changes made
+2023-12-07 23:12:37,123  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: //input[@name='prospect_lookup']]
+2023-12-07 23:12:37,123  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='case_lookup']
+2023-12-07 23:12:37,139  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='case_lookup']
+2023-12-07 23:12:37,139  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: //input[@name='case_lookup']] before any changes made
+2023-12-07 23:12:37,215  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: //input[@name='case_lookup']]
+2023-12-07 23:12:37,215  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:12:37,231  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@name='client_lookup']
+2023-12-07 23:12:37,232  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: //input[@name='client_lookup']] before any changes made
+2023-12-07 23:12:37,306  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: //input[@name='client_lookup']]
+2023-12-07 23:12:37,306  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//input[@value='Save'])[1]
+2023-12-07 23:12:37,321  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//input[@value='Save'])[1]
+2023-12-07 23:12:37,321  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: (//input[@value='Save'])[1]]
+2023-12-07 23:12:38,842  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (03b94c846e2148e3b3db8eb83df1777d)] -> xpath: (//input[@value='Save'])[1]]
+2023-12-07 23:12:38,842  INFO [main] TestBase:50 - *************** Test - 2 is Done. ***************
+2023-12-07 23:12:38,846  INFO [main] TestBase:70 - *************** Closing Browser. ***************
+2023-12-07 23:12:39,067  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
+2023-12-07 23:12:42,090  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:12:42,090  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:12:45,179  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:12:45,180  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:12:45,180  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:12:45,234  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:12:45,234  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (45ab1d34dabfe9f0771cef22cc939f10)] -> name: username] before any changes made
+2023-12-07 23:12:45,341  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (45ab1d34dabfe9f0771cef22cc939f10)] -> name: username]
+2023-12-07 23:12:45,341  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:12:45,358  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:12:45,358  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (45ab1d34dabfe9f0771cef22cc939f10)] -> name: password] before any changes made
+2023-12-07 23:12:45,437  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (45ab1d34dabfe9f0771cef22cc939f10)] -> name: password]
+2023-12-07 23:12:45,438  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:12:45,460  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:12:45,460  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (45ab1d34dabfe9f0771cef22cc939f10)] -> xpath: //input[@type='submit']]
+2023-12-07 23:12:50,404  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (45ab1d34dabfe9f0771cef22cc939f10)] -> xpath: //input[@type='submit']]
+2023-12-07 23:12:50,449  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
+2023-12-07 23:12:50,451  INFO [main] TestBase:55 - *************** Test - 3 | Verify Added New Task. ***************
+2023-12-07 23:12:50,451  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:12:50,470  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:12:50,471  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (45ab1d34dabfe9f0771cef22cc939f10)] -> xpath: //a[normalize-space()='Tasks']]
+2023-12-07 23:12:51,514  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (45ab1d34dabfe9f0771cef22cc939f10)] -> xpath: //a[normalize-space()='Tasks']]
+2023-12-07 23:12:51,514  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:12:51,535  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:12:51,535  INFO [main] TestBase:82 - ***** Assertion Declaration ***** 
+2023-12-07 23:12:51,535  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:12:51,548  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:12:51,549  INFO [main] TestBase:57 - *************** Test - 3 is Done. ***************
+2023-12-07 23:12:51,551  INFO [main] TestBase:70 - *************** Closing Browser. ***************
+2023-12-07 23:12:51,773  INFO [main] TestBase:24 - *************** Task Page Test. | Befor Test Method.  ***************
+2023-12-07 23:12:55,543  INFO [main] TestBase:60 - *************** Entering URL  ***************
+2023-12-07 23:12:55,544  INFO [main] MyWebDriverDecorator:60 - Before navigating to: 'https://classic.freecrm.com/'
+2023-12-07 23:12:59,056  INFO [main] MyWebDriverDecorator:66 - Navigated to:'https://classic.freecrm.com/'
+2023-12-07 23:12:59,057  INFO [main] LoginPage:48 - ** Entering Username and password ** 
+2023-12-07 23:12:59,058  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: username
+2023-12-07 23:12:59,092  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: username
+2023-12-07 23:12:59,092  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> name: username] before any changes made
+2023-12-07 23:12:59,188  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> name: username]
+2023-12-07 23:12:59,188  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.name: password
+2023-12-07 23:12:59,206  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.name: password
+2023-12-07 23:12:59,206  INFO [main] MyWebDriverDecorator:48 - Value of the:[[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> name: password] before any changes made
+2023-12-07 23:12:59,284  INFO [main] MyWebDriverDecorator:54 - Element value changed to: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> name: password]
+2023-12-07 23:12:59,285  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:12:59,307  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //input[@type='submit']
+2023-12-07 23:12:59,307  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: //input[@type='submit']]
+2023-12-07 23:13:04,591  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: //input[@type='submit']]
+2023-12-07 23:13:04,637  INFO [main] TestBase:29 - *************** Before Method is Done. ***************
+2023-12-07 23:13:04,639  INFO [main] TestBase:62 - *************** Test - 4 | Delating New Task. ***************
+2023-12-07 23:13:04,641  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:13:04,662  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: //a[normalize-space()='Tasks']
+2023-12-07 23:13:04,662  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: //a[normalize-space()='Tasks']]
+2023-12-07 23:13:05,608  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: //a[normalize-space()='Tasks']]
+2023-12-07 23:13:07,615  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:13:07,646  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:13:07,647  INFO [main] TestBase:92 - ********** Delating Task No : 1 **********
+2023-12-07 23:13:07,647  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//a//i[@title='Delete'])[1]
+2023-12-07 23:13:07,665  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//a//i[@title='Delete'])[1]
+2023-12-07 23:13:07,665  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: (//a//i[@title='Delete'])[1]]
+2023-12-07 23:13:07,765  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: (//a//i[@title='Delete'])[1]]
+2023-12-07 23:13:07,774  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:13:07,780  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:13:09,782  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:13:09,804  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:13:09,804  INFO [main] TestBase:92 - ********** Delating Task No : 2 **********
+2023-12-07 23:13:09,805  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//a//i[@title='Delete'])[1]
+2023-12-07 23:13:09,818  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//a//i[@title='Delete'])[1]
+2023-12-07 23:13:09,819  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: (//a//i[@title='Delete'])[1]]
+2023-12-07 23:13:09,904  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: (//a//i[@title='Delete'])[1]]
+2023-12-07 23:13:09,914  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:13:09,927  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:13:11,927  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:13:11,948  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:13:11,948  INFO [main] TestBase:92 - ********** Delating Task No : 3 **********
+2023-12-07 23:13:11,949  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//a//i[@title='Delete'])[1]
+2023-12-07 23:13:11,969  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//a//i[@title='Delete'])[1]
+2023-12-07 23:13:11,970  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: (//a//i[@title='Delete'])[1]]
+2023-12-07 23:13:12,052  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: (//a//i[@title='Delete'])[1]]
+2023-12-07 23:13:12,060  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:13:12,071  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:13:14,087  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:13:14,112  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:13:14,113  INFO [main] TestBase:92 - ********** Delating Task No : 4 **********
+2023-12-07 23:13:14,113  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.xpath: (//a//i[@title='Delete'])[1]
+2023-12-07 23:13:14,139  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.xpath: (//a//i[@title='Delete'])[1]
+2023-12-07 23:13:14,139  INFO [main] MyWebDriverDecorator:37 - Trying to click on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: (//a//i[@title='Delete'])[1]]
+2023-12-07 23:13:14,269  INFO [main] MyWebDriverDecorator:43 - Clicked on: [[ChromeDriver: chrome on windows (6edaaafe92846929fe833f2e5115fd0f)] -> xpath: (//a//i[@title='Delete'])[1]]
+2023-12-07 23:13:14,285  INFO [main] MyWebDriverDecorator:105 - Before Aert Accept 
+2023-12-07 23:13:14,304  INFO [main] MyWebDriverDecorator:111 - ** After Alert Accept **
+2023-12-07 23:13:16,320  INFO [main] MyWebDriverDecorator:25 - Trying to find Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:13:16,341  INFO [main] MyWebDriverDecorator:31 - Found Element By : By.all({By.xpath: //a//i[@title='Delete']})
+2023-12-07 23:13:16,342  INFO [main] TestBase:64 - *************** Test - 4 is Done. ***************
+2023-12-07 23:13:16,345  INFO [main] TestBase:70 - *************** Closing Browser. ***************
+2023-12-07 23:13:17,013 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-12-07 23:13:17,015 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+2023-12-07 23:13:17,019 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-12-07 23:13:17,021 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-12-07 23:13:17,021 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/mohit/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-12-07 23:13:17,374 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2023-12-07 23:13:17,378 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+2023-12-07 23:13:17,379 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-12-07 23:13:17,379 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-12-07 23:13:17,380 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/mohit/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

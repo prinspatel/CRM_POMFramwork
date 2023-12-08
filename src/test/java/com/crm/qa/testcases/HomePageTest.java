@@ -31,21 +31,21 @@ public class HomePageTest extends TestBase {
 		Thread.sleep(3000);
 	}
 
-	//@Test(priority = 1)
+	@Test(priority = 1)
 	public void varifyHomePageTitle() throws InterruptedException {
 		log.info(" ***************	Test 1 - Verifying Home Page Title	*************** ");
 		String htitle = homepage.verifyHomePagetitle();
 		Assert.assertEquals(htitle, "CRMPRO", "Title of the Home Page is not Matched.");
 	}
-
-	//@Test(priority = 2)
+	
+	@Test(priority = 2)
 	public void verifyUserNameTest() {
 		log.info(" ***************	Test 2 - Verifying Username Test	*************** ");
 		boolean user = homepage.verifyCurrentUserName();
 		Assert.assertTrue(user);
 	}
 
-	//@Test(priority = 3)
+	@Test(priority = 3)
 	public void verifycontect() {
 		log.info(" ***************	Test 3 - Verifying contect Test	*************** ");
 		contactsPage = homepage.clickOnContactLink();

@@ -26,14 +26,14 @@ public class LoginPageTest extends TestBase {
 		driver.quit();
 	}
 
-	//@Test(priority = 1)
+	@Test(priority = 1)
 	public void loginPageTitleTest() throws InterruptedException {
 		log.info("*************** Test - 1 | Login Page Title Test ***************");
 		String title = lp.validateLoginPageTitle();
 		AssertJUnit.assertEquals(title, "Free CRM software for customer relationship management, sales, and support.");
 	}
 
-	//@Test(priority = 2)
+	@Test(priority = 2)
 	public void logoImageTest() {
 		log.info("*************** Test - 2 | Logo / Image Test ***************");
 		boolean logo = lp.validateCRMImage();

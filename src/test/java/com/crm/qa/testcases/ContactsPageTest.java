@@ -31,7 +31,7 @@ public class ContactsPageTest extends TestBase {
 
 	}
 
-	//@Test(priority = 1)
+	@Test(priority = 1)
 	public void contactLabelIsDisplayTest() {
 		log.info("*************** Test - 1 | Contect Lable is Display Test ***************");
 		testutil.swithToFrame();
@@ -56,7 +56,7 @@ public class ContactsPageTest extends TestBase {
 		return data;
 	}
 
-	//@Test(priority = 3,  dataProvider="getCRMTestData")
+	@Test(priority = 3,  dataProvider="getCRMTestData")
 	public void validateCreateNewContact(String title, String firstName, String lastName, String company) {
 		log.info("*************** Test - 3 | Creating New Contect  ***************");
 		testutil.swithToFrame();

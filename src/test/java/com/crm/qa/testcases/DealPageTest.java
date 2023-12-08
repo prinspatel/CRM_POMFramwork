@@ -47,7 +47,7 @@ public class DealPageTest extends TestBase {
 		return data;
 	}
 
-	// @Test(priority = 2, dataProvider= "dealsdata")
+	@Test(priority = 2, dataProvider= "dealsdata")
 	public void addNewDealTest(String Dtitle, String Dcomapny) throws InterruptedException {
 		log.info("*************** Test - 2 | Deal Page Valadition.  ***************");
 		dealPage.addNewDeal(Dtitle, Dcomapny);
